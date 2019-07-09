@@ -9,7 +9,7 @@ public class Crosshair : MonoBehaviour
 
     // 크로스 헤어 상태에 따른 총의 정확도
     private float gunAccuracy;
-
+    // dkssudgktpdy
     // 크로스 헤어 비활성화를 위한 부모 객체
     [SerializeField]
     private GameObject go_CrosshairHUD;
@@ -46,7 +46,7 @@ public class Crosshair : MonoBehaviour
             animator.SetTrigger("Idle_Fire");
 
     }
-    // 안녕
+    // 안녕 212312
     public float GetAccuracy()
     {
         if (animator.GetBool("Walking"))
