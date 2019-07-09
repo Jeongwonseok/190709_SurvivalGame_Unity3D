@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
+    // 활성화 여부
+    public static bool isActivate = true;
+
     // 현재 총 선언
     [SerializeField]
     private Gun currentGun;
@@ -40,25 +43,29 @@ public class GunController : MonoBehaviour
     {
         // 초기화
         originPos = Vector3.zero;
-
         // 시작과 동시에 오디오 컴포넌트 선언
         audioSource = GetComponent<AudioSource>();
         // originPos = transform.localPosition;
-
         theCrosshair = FindObjectOfType<Crosshair>();
+
+        WeaponManager.currentWeapon = currentGun.GetComponent<Transform>();
+        WeaponManager.currentWeaponAnim = currentGun.anim;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // 발사하기전 장전중에 발사 못하도록 해주는 메서드
-        GunFireRateCalc();
-        // 총쏘기 시도
-        TryFire();
-        // 수동 재장전 시도
-        TryReload();
-        // 정조준 시도
-        TryFineSight();
+        if (isActivate)
+        {
+            // 발사하기전 장전중에 발사 못하도록 해주는 메서드
+            GunFireRateCalc();
+            // 총쏘기 시도
+            TryFire();
+            // 수동 재장전 시도
+            TryReload();
+            // 정조준 시도
+            TryFineSight();
+        }
     }
 
     // 연사 속도 계산 메서드
@@ -74,8 +81,8 @@ public class GunController : MonoBehaviour
     // 총쏘기 시도
     private void TryFire()
     {
-        // 왼쪽 마우스 클릭하거나 현재 연사속도가 0이면
-        if(Input.GetButton("Fire1") && currentFireRate<=0 && !isReload)
+        // 왼쪽 마우스 클릭하거나 현재 연사속도가 0이면 , 달리는 상태가 아니면
+        if(Input.GetButton("Fire1") && currentFireRate<=0 && !isReload && !PlayerController.isRun)
         {
             // 총쏘기
             Fire();
@@ -144,7 +151,17 @@ public class GunController : MonoBehaviour
             CancleFineSight();
             StartCoroutine(ReloadCoroutine());
         }
-    } 
+    }
+
+    public void CancelReload()
+    {
+        if (isReload)
+        {
+            StopAllCoroutines();
+            isReload = false;
+
+        }
+    }
 
     // 재장전 메서드
     IEnumerator ReloadCoroutine()
@@ -305,5 +322,20 @@ public class GunController : MonoBehaviour
     public bool GetFineSightMode()
     {
         return isFineSightMode;
+    }
+
+    public void GunChange (Gun _gun)
+    {
+        if(WeaponManager.currentWeapon != null)
+        {
+            WeaponManager.currentWeapon.gameObject.SetActive(false);
+        }
+        currentGun = _gun;
+        WeaponManager.currentWeapon = currentGun.GetComponent<Transform>();
+        WeaponManager.currentWeaponAnim = currentGun.anim;
+
+        currentGun.transform.localPosition = Vector3.zero;
+        currentGun.gameObject.SetActive(true);
+        isActivate = true;
     }
 }

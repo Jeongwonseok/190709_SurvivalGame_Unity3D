@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     // 상태 변수
     private bool isWalk = false;
-    private bool isRun = false;
+    public static bool isRun = false;   // 달리는 상황에서 총알 안나가게 하기위해 public static 으로 선언!!
     private bool isGround = true;
     private bool isCrouch = false;
 
@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
     private void IsGround()
     {
         isGround = Physics.Raycast(transform.position, Vector3.down, capsuleCollider.bounds.extents.y+0.1f);
-        theCrosshair.RunningAnimation(!isGround);
+        theCrosshair.JumpingAnimation(!isGround);
     }
 
     // 점프 시도
