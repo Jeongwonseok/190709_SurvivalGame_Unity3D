@@ -3,9 +3,9 @@
     <Files>
       <File FileName="Assets/Scripts/HandController.cs" Line="9" Column="30" />
       <File FileName="Assets/Scripts/Gun.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="223" Column="42" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
       <File FileName="Assets/Scripts/GunController.cs" />
-      <File FileName="Assets/Scripts/Crosshair.cs" Line="49" Column="10" />
+      <File FileName="Assets/Scripts/Crosshair.cs" Line="8" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="632943fa-d5ba-4ecd-a3e7-583744557b17" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5b716470-d1f5-420b-984c-ccb5e4cdd8e9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
