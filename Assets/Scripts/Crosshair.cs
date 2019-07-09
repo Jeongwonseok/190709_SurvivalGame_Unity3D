@@ -46,7 +46,7 @@ public class Crosshair : MonoBehaviour
             animator.SetTrigger("Idle_Fire");
 
     }
-
+    // 안녕
     public float GetAccuracy()
     {
         if (animator.GetBool("Walking"))
