@@ -8,7 +8,7 @@ public class CloseWeapon : MonoBehaviour
 
     public bool isHand; // 맨손
     public bool isAxe; // 도끼
-    public bool isPickAxe; // 곡괭이
+    public bool isPickaxe; // 곡괭이
 
     public float range; // 공격 범위
     public int damage; // 공격력

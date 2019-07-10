@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CloseWeaponController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/CloseWeapon.cs" Line="11" Column="34" />
-      <File FileName="Assets/Scripts/HandController.cs" />
-      <File FileName="Assets/Scripts/AxeController.cs" />
-      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="60" Column="1" />
-      <File FileName="Assets/Scripts/WeaponManager.cs" />
-      <File FileName="Assets/Scripts/GunController.cs" />
+      <File FileName="Assets/Scripts/CloseWeapon.cs" Line="11" Column="24" />
+      <File FileName="Assets/Scripts/HandController.cs" Line="11" Column="40" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="34" Column="21" />
+      <File FileName="Assets/Scripts/AxeController.cs" Line="14" Column="8" />
+      <File FileName="Assets/Scripts/PickaxeController.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="63" Column="6" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="45" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CloseWeaponController.cs" selected="True" />
+                <Node name="WeaponManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
