@@ -25,25 +25,30 @@ public class WeaponManager : MonoBehaviour
     // 무기 종류들 전부 관리 
     [SerializeField]
     private Gun[] guns;
-    [SerializeField]
-    private Hand[] hands;
+	[SerializeField]
+	private CloseWeapon[] hands;
+	[SerializeField]
+	private CloseWeapon[] axes;
 
-    // 키값 줘서 관리하기 편하게 해줌!! >> 무기 접근 용이 
-    private Dictionary<string, Gun> gunDictionary = new Dictionary<string, Gun>();
-    private Dictionary<string, Hand> handDictionary = new Dictionary<string, Hand>();
+	// 키값 줘서 관리하기 편하게 해줌!! >> 무기 접근 용이 
+	private Dictionary<string, Gun> gunDictionary = new Dictionary<string, Gun>();
+	private Dictionary<string, CloseWeapon> handDictionary = new Dictionary<string, CloseWeapon>();
+	private Dictionary<string, CloseWeapon> axeDictionary = new Dictionary<string, CloseWeapon>();
 
-    // 필요한 컴포넌트
-    [SerializeField]
+	// 필요한 컴포넌트
+	[SerializeField]
     private GunController theGunController;
     [SerializeField]
     private HandController theHandController;
+	[SerializeField]
+	private AxeController theAxeController;
 
 
-    
-    
 
-    // Start is called before the first frame update
-    void Start()
+
+
+	// Start is called before the first frame update
+	void Start()
     {
         for (int i = 0; i < guns.Length; i++)
         {
@@ -52,9 +57,13 @@ public class WeaponManager : MonoBehaviour
 
         for (int i = 0; i < hands.Length; i++)
         {
-            handDictionary.Add(hands[i].handName, hands[i]);
-        }    
-    }
+            handDictionary.Add(hands[i].closeWeaponName, hands[i]);
+        }
+		for (int i = 0; i < axes.Length; i++)
+		{
+			axeDictionary.Add(axes[i].closeWeaponName, axes[i]);
+		}
+	}
 
     // Update is called once per frame
     void Update()
@@ -63,9 +72,11 @@ public class WeaponManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Alpha1))
                 StartCoroutine(ChangeWeaponCoroutine("HAND", "맨손")); // 무기교체실행 (맨손)
-            else if (Input.GetKeyDown(KeyCode.Alpha2))
-                StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1")); // 무기교체실행 (서브머신건)
-        }
+			else if (Input.GetKeyDown(KeyCode.Alpha2))
+				StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1")); // 무기교체실행 (서브머신건)
+			else if (Input.GetKeyDown(KeyCode.Alpha3))
+				StartCoroutine(ChangeWeaponCoroutine("AXE", "Axe")); // 무기교체실행 (서브머신건)
+		}
     }
 
     public IEnumerator ChangeWeaponCoroutine(string _type, string _name)
@@ -94,18 +105,23 @@ public class WeaponManager : MonoBehaviour
                 theGunController.CancelReload();
                 GunController.isActivate = false;
                 break;
-            case "HAND":
-                HandController.isActivate = false;
-                break;
+			case "HAND":
+				HandController.isActivate = false;
+				break;
+			case "AXE":
+				AxeController.isActivate = false;
+				break;
 
-        }
+		}
     }
 
     private void WeaponChange(string _type, string _name)
     {
         if(_type == "GUN")
             theGunController.GunChange(gunDictionary[_name]);
-        else if(_type == "HAND")
-            theHandController.HandChange(handDictionary[_name]);
-    }
+		else if (_type == "HAND")
+			theHandController.CloseWeaponChange(handDictionary[_name]);
+		else if (_type == "AXE")
+			theAxeController.CloseWeaponChange(axeDictionary[_name]);
+	}
 }
