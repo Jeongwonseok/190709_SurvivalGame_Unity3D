@@ -17,7 +17,7 @@ public class GunController : MonoBehaviour
     // 재장전 상태변수 선언 >> false 일때만 발사
     private bool isReload = false;
     [HideInInspector]
-    private bool isFineSightMode = false;
+    public bool isFineSightMode = false;
 
 
     // 정조준하고 원래로 돌아올때의 벡터값 변수

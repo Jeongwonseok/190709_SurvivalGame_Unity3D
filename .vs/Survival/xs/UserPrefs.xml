@@ -1,24 +1,31 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponSway.cs">
     <Files>
-      <File FileName="Assets/Scripts/HandController.cs" Line="9" Column="30" />
+      <File FileName="Assets/Scripts/HUD.cs" Line="14" Column="21" />
+      <File FileName="Assets/Scripts/HandController.cs" Line="80" Column="39" />
       <File FileName="Assets/Scripts/Gun.cs" Line="12" Column="1" />
       <File FileName="Assets/Scripts/PlayerController.cs" />
-      <File FileName="Assets/Scripts/GunController.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/Crosshair.cs" Line="15" Column="40" />
-      <File FileName="Assets/Scripts/WeaponManager.cs" Line="8" Column="23" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="12" Column="46" />
+      <File FileName="Assets/Scripts/Crosshair.cs" Line="25" Column="45" />
+      <File FileName="Assets/Scripts/WeaponSway.cs" Line="75" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Survival" expanded="True" selected="True" />
+          <Node name="Survival" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WeaponSway.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d8aa8f1d-0293-46cf-b3c2-9e8225739c85" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0c613b3-dd4c-4c26-9fb5-d2f51b397085" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
