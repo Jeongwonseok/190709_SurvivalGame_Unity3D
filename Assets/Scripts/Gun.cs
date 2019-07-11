@@ -24,7 +24,7 @@ public class Gun : MonoBehaviour
     public Animator anim; // 애니메이션 
     public ParticleSystem muzzleFlash; // 총구 섬광 변수
 
-    public AudioClip fire_sound; // 총 발사할때 사운드 변수
+    //public AudioClip fire_sound; // 총 발사할때 사운드 변수
 
 
 

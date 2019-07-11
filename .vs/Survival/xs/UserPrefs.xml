@@ -1,15 +1,12 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rock.cs">
     <Files>
-      <File FileName="Assets/Scripts/CloseWeapon.cs" Line="14" Column="30" />
-      <File FileName="Assets/Scripts/CloseWeaponController.cs" />
-      <File FileName="Assets/Scripts/WeaponManager.cs" />
-      <File FileName="Assets/Scripts/HandController.cs" />
-      <File FileName="Assets/Scripts/GunController.cs" />
-      <File FileName="Assets/Scripts/AxeController.cs" />
-      <File FileName="Assets/Scripts/PickaxeController.cs" />
-      <File FileName="Assets/Scripts/Rock.cs" />
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="112" Column="34" />
+      <File FileName="Assets/Scripts/HandController.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="122" Column="31" />
+      <File FileName="Assets/Scripts/Gun.cs" Line="27" Column="7" />
+      <File FileName="Assets/Scripts/Rock.cs" Line="37" Column="6" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="37" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +14,7 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SoundManager.cs" selected="True" />
+                <Node name="Rock.cs" selected="True" />
               </Node>
             </Node>
           </Node>

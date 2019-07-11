@@ -25,7 +25,9 @@ public class GunController : MonoBehaviour
     private Vector3 originPos;
 
     // 오디오 담을 소스 선언
-    private AudioSource audioSource;
+    // 필요한 사운드 이름
+    [SerializeField]
+    private string shoot_Sound;
 
     // 레이저 충돌 정보 변수
     private RaycastHit hitInfo;
@@ -44,7 +46,7 @@ public class GunController : MonoBehaviour
         // 초기화
         originPos = Vector3.zero;
         // 시작과 동시에 오디오 컴포넌트 선언
-        audioSource = GetComponent<AudioSource>();
+        //audioSource = GetComponent<AudioSource>();
         // originPos = transform.localPosition;
         theCrosshair = FindObjectOfType<Crosshair>();
 
@@ -115,7 +117,8 @@ public class GunController : MonoBehaviour
         currentFireRate = currentGun.fireRate;
 
         // 발사와 동시에 sound 집어넣기
-        PlaySE(currentGun.fire_sound);
+        //PlaySE(currentGun.fire_sound);
+        SoundManager.instance.PlaySE(shoot_Sound);
 
         // 섬광 발동
         currentGun.muzzleFlash.Play();
@@ -307,11 +310,11 @@ public class GunController : MonoBehaviour
     }
 
     // 오디오 집어넣어주는 메서드 >> 매게변수 : AudioClip
-    private void PlaySE(AudioClip _clip)
-    {
-        audioSource.clip = _clip;
-        audioSource.Play();
-    }
+    //private void PlaySE(AudioClip _clip)
+    //{
+    //    audioSource.clip = _clip;
+    //    audioSource.Play();
+    //}
 
     public Gun GetGun()
     {

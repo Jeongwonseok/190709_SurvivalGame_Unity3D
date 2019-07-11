@@ -6184,7 +6184,6 @@ MonoBehaviour:
   fineSightOriginPos: {x: 0.1, y: 0.32, z: -0.5829}
   anim: {fileID: 359079054}
   muzzleFlash: {fileID: 230773131}
-  fire_sound: {fileID: 8300000, guid: e611153afa8d94b75809cefb93912c32, type: 3}
 --- !u!1 &409638359
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,6 +6332,7 @@ MonoBehaviour:
   currentGun: {fileID: 368568817}
   isFineSightMode: 0
   originPos: {x: 0, y: 0, z: 0}
+  shoot_Sound: Shoot_Sound
   theCam: {fileID: 1270785095}
   hit_effect_prefab: {fileID: 99231479265063049, guid: 79fb83796b43c40829b05b6933007bc7,
     type: 3}
@@ -7025,7 +7025,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: strike_Sound
+      value: Pickaxe_Strike
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: destroy_Sound
+      value: Rock_Destroy
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2972523748324428371, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
 --- !u!1 &947506538
 GameObject:
@@ -7743,20 +7754,14 @@ MonoBehaviour:
   - {fileID: 947506541}
   - {fileID: 947506540}
   audioSourceBgm: {fileID: 947506539}
-  playSoundName:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  playSoundName: []
   effectSounds:
   - name: Pickaxe_Strike
     clip: {fileID: 8300000, guid: 2051d0304d207472c81eda6153d15fc1, type: 3}
   - name: Rock_Destroy
     clip: {fileID: 8300000, guid: f030f2203b0b046089d52c9ab11bf5d8, type: 3}
-  - name: 
-    clip: {fileID: 0}
+  - name: Shoot_Sound
+    clip: {fileID: 8300000, guid: e611153afa8d94b75809cefb93912c32, type: 3}
   - name: 
     clip: {fileID: 0}
   - name: 
@@ -14435,7 +14440,8 @@ PrefabInstance:
       propertyPath: destroy_Sound
       value: Rock_Destroy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2972523748324428371, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
 --- !u!137 &8990881004837208692
 SkinnedMeshRenderer:
