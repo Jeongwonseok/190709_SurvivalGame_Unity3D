@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/StatusController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ActionController.cs">
     <Files>
       <File FileName="Assets/Scripts/WeaponManager.cs" Line="112" Column="34" />
       <File FileName="Assets/Scripts/HandController.cs" />
@@ -7,8 +7,11 @@
       <File FileName="Assets/Scripts/Gun.cs" />
       <File FileName="Assets/Scripts/Rock.cs" />
       <File FileName="Assets/Scripts/SoundManager.cs" />
-      <File FileName="Assets/Scripts/UI Script/StatusController.cs" Line="135" Column="14" />
-      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="167" Column="50" />
+      <File FileName="Assets/Scripts/UI Script/StatusController.cs" Line="226" Column="45" />
+      <File FileName="Assets/Scripts/Item.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/ItemPickUp.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/ActionController.cs" Line="8" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +19,8 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True">
-                  <Node name="StatusController.cs" selected="True" />
-                </Node>
+                <Node name="UI Script" expanded="True" />
+                <Node name="ActionController.cs" selected="True" />
               </Node>
             </Node>
           </Node>

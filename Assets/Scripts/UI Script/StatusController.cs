@@ -154,7 +154,76 @@ public class StatusController : MonoBehaviour
         images_Gauge[SATISFY].fillAmount = (float)currentSatisfy / satisfy;
     }
 
-    public void DecreaseStamina(int _count)
+    public void IncreaseHP(int _count)
+    {
+        if (currentHp + _count < hp)
+            currentHp += _count;
+        else
+            currentHp = hp;
+    }
+
+    public void DecreaseHP(int _count)
+    {
+        if (currentDp > 0)
+        {
+            DecreaseDP(_count);
+            return;
+        }
+        currentHp -= _count;
+
+        if (currentHp <= 0)
+            Debug.Log("캐릭터의 HP가 0이 되었습니다.");
+    }
+
+    public void IncreaseDP(int _count)
+    {
+        if (currentDp + _count < dp)
+            currentDp += _count;
+        else
+            currentDp = dp;
+    }
+
+    public void DecreaseDP(int _count)
+    {
+        currentDp -= _count;
+
+        if (currentDp <= 0)
+            Debug.Log("방어력이 0이 되었습니다.");
+    }
+
+    public void IncreaseHungry(int _count)
+    {
+        if (currentHungry + _count < hungry)
+            currentHungry += _count;
+        else
+            currentDp = dp;
+    }
+
+    public void DecreaseHungry(int _count)
+    {
+        if (currentHungry - _count < 0)
+            currentHungry = 0;
+        else
+            currentHungry -= _count;
+    }
+
+    public void IncreaseThirsty(int _count)
+    {
+        if (currentThirsty + _count < thirsty)
+            currentThirsty += _count;
+        else
+            currentThirsty = thirsty;
+    }
+
+    public void DecreaseThirsty(int _count)
+    {
+        if (currentThirsty - _count < 0)
+            currentThirsty = 0;
+        else
+            currentThirsty -= _count;
+    }
+
+    public void DecreaseStamina(int _count) 
     {
         spUsed = true;
         currentSpRechargeTime = 0;
@@ -167,5 +236,10 @@ public class StatusController : MonoBehaviour
         {
             currentSp = 0;
         }
+    }
+
+    public int GetCurrentSP()
+    {
+        return currentSp;
     }
 }
