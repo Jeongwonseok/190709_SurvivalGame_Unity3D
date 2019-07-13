@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ActionController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Inventory.cs">
     <Files>
-      <File FileName="Assets/Scripts/WeaponManager.cs" Line="112" Column="34" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="95" Column="18" />
       <File FileName="Assets/Scripts/HandController.cs" />
       <File FileName="Assets/Scripts/GunController.cs" />
       <File FileName="Assets/Scripts/Gun.cs" />
       <File FileName="Assets/Scripts/Rock.cs" />
       <File FileName="Assets/Scripts/SoundManager.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="167" Column="50" />
-      <File FileName="Assets/Scripts/UI Script/StatusController.cs" Line="226" Column="45" />
-      <File FileName="Assets/Scripts/Item.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/ItemPickUp.cs" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/ActionController.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="20" Column="13" />
+      <File FileName="Assets/Scripts/UI Script/StatusController.cs" />
+      <File FileName="Assets/Scripts/Item.cs" />
+      <File FileName="Assets/Scripts/ItemPickUp.cs" />
+      <File FileName="Assets/Scripts/ActionController.cs" />
+      <File FileName="Assets/Scripts/UI Script/Slot.cs" Line="42" Column="44" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="8" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,8 +21,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True" />
-                <Node name="ActionController.cs" selected="True" />
+                <Node name="UI Script" expanded="True">
+                  <Node name="Inventory.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
