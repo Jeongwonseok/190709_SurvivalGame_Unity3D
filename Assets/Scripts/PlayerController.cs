@@ -67,6 +67,11 @@ public class PlayerController : MonoBehaviour
         applyCrouchPosY = originPosY;
     }
 
+    void FixedUpdate()
+    {
+        MoveCheck();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -75,7 +80,6 @@ public class PlayerController : MonoBehaviour
         TryRun();
         TryCrouch();
         Move();
-        MoveCheck();
         CameraRotation();
         CharacterRotation();
     }
@@ -94,6 +98,9 @@ public class PlayerController : MonoBehaviour
     {
         isCrouch = !isCrouch;
         theCrosshair.CrouchingAnimation(isCrouch);
+
+        isWalk = false;
+        theCrosshair.WalkingAnimation(isWalk);
 
         if (isCrouch)
         {
@@ -217,7 +224,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isRun && !isCrouch && isGround)
         {
-            if (Vector3.Distance(lastPos, transform.position) >= 0.02f)
+            if (Vector3.Distance(lastPos, transform.position) >= 0.01f)
                 isWalk = true;
             else
                 isWalk = false;
