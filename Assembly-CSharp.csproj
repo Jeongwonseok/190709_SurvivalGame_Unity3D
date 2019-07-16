@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\HandController.cs" />
     <Compile Include="Assets\Scripts\HUD.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemEffectDatabase.cs" />
     <Compile Include="Assets\Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\Scripts\PickaxeController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

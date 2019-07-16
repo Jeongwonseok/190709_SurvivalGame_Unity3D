@@ -56,16 +56,19 @@ public class GunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isActivate)
+        if (!Inventory.inventoryActivated)
         {
-            // 발사하기전 장전중에 발사 못하도록 해주는 메서드
-            GunFireRateCalc();
-            // 총쏘기 시도
-            TryFire();
-            // 수동 재장전 시도
-            TryReload();
-            // 정조준 시도
-            TryFineSight();
+            if (isActivate)
+            {
+                // 발사하기전 장전중에 발사 못하도록 해주는 메서드
+                GunFireRateCalc();
+                // 총쏘기 시도
+                TryFire();
+                // 수동 재장전 시도
+                TryReload();
+                // 정조준 시도
+                TryFineSight();
+            }
         }
     }
 

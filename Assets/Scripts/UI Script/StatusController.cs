@@ -191,12 +191,28 @@ public class StatusController : MonoBehaviour
             Debug.Log("방어력이 0이 되었습니다.");
     }
 
+    public void IncreaseSP(int _count)
+    {
+        if (currentSp + _count < sp)
+            currentSp += _count;
+        else
+            currentSp = dp;
+    }
+
+    public void DecreaseSP(int _count)
+    {
+        currentSp -= _count;
+
+        if (currentSp <= 0)
+            Debug.Log("캐릭터의 SP가 0이 되었습니다.");
+    }
+
     public void IncreaseHungry(int _count)
     {
         if (currentHungry + _count < hungry)
             currentHungry += _count;
         else
-            currentDp = dp;
+            currentHungry = hungry;
     }
 
     public void DecreaseHungry(int _count)

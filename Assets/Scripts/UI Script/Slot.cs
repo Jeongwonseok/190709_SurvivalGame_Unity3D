@@ -6,7 +6,6 @@ using UnityEngine.EventSystems; // 마우스 조작 담당
 
 public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
-    private Vector3 originPos;
 
     public Item item; // 획득한 아이템
     public int itemCount; // 획득한 아이템의 개수
@@ -18,12 +17,12 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     [SerializeField]
     private GameObject go_CountImage;
 
-    private WeaponManager theWeaponManager;
+    private ItemEffectDatabase theItemEffectDatabase;
+    
 
     void Start()
     {
-        originPos = transform.position;
-        theWeaponManager = FindObjectOfType<WeaponManager>();
+        theItemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
     }
 
     // 이미지의 투명도 조절
@@ -84,15 +83,11 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
         {
             if(item != null)
             {
-                if(item.itemType == Item.ItemType.Equipment)
+                theItemEffectDatabase.UseItem(item);
+
+                // 소모 >> 장비품이 아닐때만!!
+                if(item.itemType == Item.ItemType.Used)
                 {
-                    // 장착
-                    StartCoroutine(theWeaponManager.ChangeWeaponCoroutine(item.weaponType, item.itemName));
-                }
-                else
-                {
-                    Debug.Log(item.itemName + "을 사용했습니다.");
-                    // 소모
                     SetSlotCount(-1);
                 }
             }

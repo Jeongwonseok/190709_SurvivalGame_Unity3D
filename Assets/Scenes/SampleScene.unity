@@ -834,7 +834,7 @@ RectTransform:
   - {fileID: 13350901}
   - {fileID: 1368282768}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8275,7 +8275,7 @@ Transform:
   m_Children:
   - {fileID: 534669905}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &740336724 stripped
 RectTransform:
@@ -9520,7 +9520,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &954645042 stripped
 MonoBehaviour:
@@ -10316,7 +10316,7 @@ Transform:
   - {fileID: 769014875}
   - {fileID: 1873008845}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126990071 stripped
 GameObject:
@@ -17693,6 +17693,58 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 813417643}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2119129406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2119129408}
+  - component: {fileID: 2119129407}
+  m_Layer: 0
+  m_Name: DataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2119129407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119129406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a948825e259749648361ce81a19bade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemEffects:
+  - itemName: Potion Yellow
+    part:
+    - SP
+    - HUNGRY
+    - THIRSTY
+    num: c40900006400000064000000
+  thePlayerStatus: {fileID: 983538397}
+  theWeaponManager: {fileID: 508292999}
+--- !u!4 &2119129408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119129406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 78.836205, y: -0.99184895, z: 63.30952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122508454
 GameObject:
   m_ObjectHideFlags: 0
@@ -17767,6 +17819,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122508454}
   m_CullTransparentMesh: 0
+--- !u!1001 &649558386721894288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 788613021786932917, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_Name
+      value: Potion Yellow item
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.599846
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 60.48193
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788613021786970773, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94b5ccd1d117c404b9a3aa18f0ff3884, type: 3}
 --- !u!1 &1421507179206286945
 GameObject:
   m_ObjectHideFlags: 0
@@ -18813,7 +18934,7 @@ PrefabInstance:
     - target: {fileID: 1509513589210564841, guid: e64544c35cb01457db1c4bd926842d9e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1509513589210564841, guid: e64544c35cb01457db1c4bd926842d9e,
         type: 3}
