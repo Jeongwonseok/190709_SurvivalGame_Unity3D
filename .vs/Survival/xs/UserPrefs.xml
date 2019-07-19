@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Slot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/SlotToolTip.cs">
     <Files>
-      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="54" Column="101" />
-      <File FileName="Assets/Scripts/UI Script/StatusController.cs" Line="207" Column="33" />
-      <File FileName="Assets/Scripts/UI Script/Slot.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="33" Column="47" />
+      <File FileName="Assets/Scripts/UI Script/StatusController.cs" />
+      <File FileName="Assets/Scripts/UI Script/Slot.cs" />
+      <File FileName="Assets/Scripts/Item.cs" />
+      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +14,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="UI Script" expanded="True">
-                  <Node name="Slot.cs" selected="True" />
+                  <Node name="SlotToolTip.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -23,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae9b12da-7f94-434d-ac9b-8b2e9e54448f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="316926a7-d900-4f30-a55b-c623ffe0092a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
