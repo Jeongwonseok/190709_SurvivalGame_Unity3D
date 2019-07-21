@@ -16,7 +16,7 @@ public abstract class CloseWeaponController : MonoBehaviour
 
     protected RaycastHit hitInfo;
     [SerializeField]
-    protected LayerMask layerMask;
+    protected LayerMask layerMask; // 근접무기 휘두를때 Player와 충돌하지않게 하기위해
 
     protected void TryAttack()
     {

@@ -32,7 +32,7 @@ public class GunController : MonoBehaviour
     // 레이저 충돌 정보 변수
     private RaycastHit hitInfo;
     [SerializeField]
-    protected LayerMask layerMask;
+    protected LayerMask layerMask; // 총쏠때 Player와 충돌하지않게 하기위해
 
     // 필요한 컴포넌트
     [SerializeField]

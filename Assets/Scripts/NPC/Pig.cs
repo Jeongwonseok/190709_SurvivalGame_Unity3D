@@ -64,6 +64,7 @@ public class Pig : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 만약 돼지가 죽지 않았으면 실행
         if (!isDead)
         {
             Move();
@@ -72,12 +73,14 @@ public class Pig : MonoBehaviour
         }
     }
 
+    // 돼지 움직이기
     private void Move()
     {
         if (isWalking || isRunning)
             rigid.MovePosition(transform.position + (transform.forward * applySpeed * Time.deltaTime));
     }
 
+    // 돼지 회전
     private void Rotation()
     {
         if(isWalking || isRunning)
@@ -87,6 +90,7 @@ public class Pig : MonoBehaviour
         }
     }
 
+    // 경과 시간 (걷기, 뛰기, 먹기 등등..)
     private void ElapseTime()
     {
         if(isAction)
@@ -99,6 +103,7 @@ public class Pig : MonoBehaviour
         }
     }
 
+    // 리셋
     private void ReSet()
     {
         isWalking = false;
@@ -111,6 +116,7 @@ public class Pig : MonoBehaviour
         RandomAction();
     }
 
+    // 랜덤 실행(행동)
     private void RandomAction()
     {
         RandomSound();
@@ -129,12 +135,14 @@ public class Pig : MonoBehaviour
             TryWalk();
     }
 
+    // 대기
     private void Wait()
     {
         currentTime = waitTime;
         Debug.Log("대기");
     }
 
+    // 풀뜯기
     private void Eat()
     {
         currentTime = waitTime;
@@ -142,6 +150,7 @@ public class Pig : MonoBehaviour
         Debug.Log("풀뜯기");
     }
 
+    // 두리번
     private void Peek()
     {
         currentTime = waitTime;
@@ -149,6 +158,7 @@ public class Pig : MonoBehaviour
         Debug.Log("두리번");
     }
 
+    // 걷기 시도
     private void TryWalk()
     {
         isWalking = true;
@@ -158,6 +168,7 @@ public class Pig : MonoBehaviour
         Debug.Log("걷기");
     }
 
+    // 뛰기
     public void Run(Vector3 _targetPos)
     {
         direction = Quaternion.LookRotation(transform.position - _targetPos).eulerAngles;
@@ -169,6 +180,7 @@ public class Pig : MonoBehaviour
         anim.SetBool("Running", isRunning);
     }
 
+    // 데미지
     public void Damage(int _dmg, Vector3 _targetPos)
     {
         if(!isDead)
@@ -187,6 +199,7 @@ public class Pig : MonoBehaviour
         }
     }
 
+    // 죽기
     private void Dead()
     {
         PlaySE(sound_pig_Dead);
@@ -196,12 +209,14 @@ public class Pig : MonoBehaviour
         anim.SetTrigger("Dead");
     }
 
+    // 랜덤 사운드
     private void RandomSound()
     {
         int _random = Random.Range(0, 3); // 일상 사운드 3개
         PlaySE(sound_pig_Normal[_random]);
     }
 
+    // 사운드 실행
     private void PlaySE(AudioClip _clip)
     {
         theAudio.clip = _clip;

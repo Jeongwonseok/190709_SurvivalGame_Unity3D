@@ -1,16 +1,8 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CloseWeaponController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NPC/FieldOfViewAngle.cs">
     <Files>
-      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="33" Column="47" />
-      <File FileName="Assets/Scripts/UI Script/StatusController.cs" />
-      <File FileName="Assets/Scripts/UI Script/Slot.cs" />
-      <File FileName="Assets/Scripts/Item.cs" />
-      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" />
-      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="161" Column="11" />
-      <File FileName="Assets/Scripts/PickaxeController.cs" />
-      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="57" Column="64" />
-      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="19" Column="35" />
-      <File FileName="Assets/Scripts/GunController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +10,10 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="NPC" expanded="True" />
-                <Node name="CloseWeaponController.cs" selected="True" />
+                <Node name="NPC" expanded="True">
+                  <Node name="FieldOfViewAngle.cs" selected="True" />
+                </Node>
+                <Node name="UI Script" expanded="True" />
               </Node>
             </Node>
           </Node>
