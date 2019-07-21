@@ -316,6 +316,7 @@
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemEffectDatabase.cs"
 "Assets/Scripts/ItemPickUp.cs"
+"Assets/Scripts/NPC/FieldOfViewAngle.cs"
 "Assets/Scripts/NPC/Pig.cs"
 "Assets/Scripts/PickaxeController.cs"
 "Assets/Scripts/PlayerController.cs"

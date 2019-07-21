@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickaxeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CloseWeaponController.cs">
     <Files>
       <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="33" Column="47" />
       <File FileName="Assets/Scripts/UI Script/StatusController.cs" />
       <File FileName="Assets/Scripts/UI Script/Slot.cs" />
       <File FileName="Assets/Scripts/Item.cs" />
-      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" Line="19" Column="54" />
-      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="93" Column="32" />
-      <File FileName="Assets/Scripts/PickaxeController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" />
+      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="161" Column="11" />
+      <File FileName="Assets/Scripts/PickaxeController.cs" />
+      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="57" Column="64" />
+      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="19" Column="35" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +19,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="NPC" expanded="True" />
-                <Node name="PickaxeController.cs" selected="True" />
+                <Node name="CloseWeaponController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="70bcaabf-f873-4477-a8b2-eb1b3b708854" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="39a7e260-0615-4561-a68f-dea15c1fb677" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
