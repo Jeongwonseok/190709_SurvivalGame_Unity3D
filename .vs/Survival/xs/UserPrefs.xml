@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickaxeController.cs">
     <Files>
       <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="5" Column="30" />
-      <File FileName="Assets/Scripts/NPC/Animal.cs" Line="146" Column="37" />
-      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" Line="23" Column="20" />
-      <File FileName="Assets/Scripts/AxeController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PickaxeController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NPC/Pig.cs" />
+      <File FileName="Assets/Scripts/NPC/Animal.cs" />
+      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" />
+      <File FileName="Assets/Scripts/AxeController.cs" />
+      <File FileName="Assets/Scripts/PickaxeController.cs" Line="40" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="39a7e260-0615-4561-a68f-dea15c1fb677" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="568ed3e6-4e73-4723-8fae-4787a272afd1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
