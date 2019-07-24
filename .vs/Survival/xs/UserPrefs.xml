@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/CraftManual.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponManager.cs">
     <Files>
       <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="18" Column="1" />
       <File FileName="Assets/Scripts/NPC/Pig.cs" />
       <File FileName="Assets/Scripts/NPC/Animal.cs" />
-      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AxeController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PickaxeController.cs" Line="16" Column="6" />
-      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="80" Column="33" />
-      <File FileName="Assets/Scripts/PreviewObject.cs" Line="51" Column="34" />
+      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" />
+      <File FileName="Assets/Scripts/AxeController.cs" />
+      <File FileName="Assets/Scripts/PickaxeController.cs" />
+      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="113" Column="6" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PreviewObject.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="26" Column="10" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="86" Column="33" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="48" Column="9" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +21,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True">
-                  <Node name="CraftManual.cs" selected="True" />
-                </Node>
+                <Node name="NPC" expanded="True" />
+                <Node name="UI Script" expanded="True" />
+                <Node name="WeaponManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -28,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0e740552-a0f3-407d-b13b-5633bc2cae48" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d22088c0-491e-4a2e-8fe2-09e9efa6829c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
