@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActionController.cs" />
     <Compile Include="Assets\Scripts\AxeController.cs" />
+    <Compile Include="Assets\Scripts\Building\SimpleTrap.cs" />
     <Compile Include="Assets\Scripts\CloseWeapon.cs" />
     <Compile Include="Assets\Scripts\CloseWeaponController.cs" />
     <Compile Include="Assets\Scripts\Crosshair.cs" />
