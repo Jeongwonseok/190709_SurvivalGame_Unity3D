@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: 4800000, guid: 6609af8ba52620e449222cfabd7a554c, type: 3}
+  m_Shader: {fileID: 4800000, guid: a307f09a420df4a0cbe6ba80e2a7304d, type: 3}
   m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _node_661:
-        m_Texture: {fileID: 2800000, guid: 2f229460306ea994bab050d939f2a4fa, type: 3}
+        m_Texture: {fileID: 2800000, guid: f817a8a2ab6594cef95c5c91427ba2af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -80,6 +81,6 @@ Material:
     - _node_7331: 1.5
     - _node_9030: 0.95
     m_Colors:
-    - _Color: {r: 0.088287644, g: 0.25440663, b: 0.6037736, a: 1}
+    - _Color: {r: 0.16731933, g: 0.35564533, b: 0.754717, a: 1}
     - _Color2: {r: 0.3972499, g: 0.5891142, b: 0.745283, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
