@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponSway.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Title.cs">
     <Files>
       <File FileName="Assets/Scripts/Building/SimpleTrap.cs" Line="10" Column="1" />
       <File FileName="Assets/Scripts/DayAndNight.cs" Line="35" Column="10" />
@@ -10,7 +10,8 @@
       <File FileName="Assets/Scripts/Water/Water.cs" Line="97" Column="6" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="33" Column="60" />
       <File FileName="Assets/Scripts/UI Script/Pausemenu.cs" Line="21" Column="10" />
-      <File FileName="Assets/Scripts/WeaponSway.cs" Line="39" Column="10" />
+      <File FileName="Assets/Scripts/WeaponSway.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/Title.cs" Line="8" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +19,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True" />
-                <Node name="WeaponSway.cs" selected="True" />
+                <Node name="UI Script" expanded="True">
+                  <Node name="Title.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
