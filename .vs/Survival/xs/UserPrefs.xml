@@ -2,9 +2,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Water/Water.cs">
     <Files>
       <File FileName="Assets/Scripts/Building/SimpleTrap.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="14" Column="40" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="57" Column="10" />
       <File FileName="Assets/Scripts/DayAndNight.cs" Line="35" Column="10" />
-      <File FileName="Assets/Scripts/Water/Water.cs" Line="109" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="111" Column="10" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="154" Column="26" />
+      <File FileName="Assets/Scripts/Crosshair.cs" Line="73" Column="6" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="91" Column="122" />
+      <File FileName="Assets/Scripts/Water/Water.cs" Line="31" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,12 +16,10 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Building" expanded="True" />
                 <Node name="Water" expanded="True">
                   <Node name="Water.cs" selected="True" />
                 </Node>
               </Node>
-              <Node name="Water Shader" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80d5ccf7-9177-43f9-b45d-9a277f076844" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e0c91dc-200c-450c-8c8b-e8d8dda3903b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

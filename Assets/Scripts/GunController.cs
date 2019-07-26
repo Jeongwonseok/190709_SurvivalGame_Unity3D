@@ -88,7 +88,7 @@ public class GunController : MonoBehaviour
     private void TryFire()
     {
         // 왼쪽 마우스 클릭하거나 현재 연사속도가 0이면 , 달리는 상태가 아니면
-        if(Input.GetButton("Fire1") && currentFireRate<=0 && !isReload && !PlayerController.isRun)
+        if(Input.GetButton("Fire1") && currentFireRate<=0 && !isReload && !PlayerController.isRun && !GameManager.isWater)
         {
             // 총쏘기
             Fire();

@@ -140,4 +140,21 @@ public class WeaponManager : MonoBehaviour
         else if (_type == "PICKAXE")
             thePickaxeController.CloseWeaponChange(pickaxeDictionary[_name]);
     }
+
+    public IEnumerator WeaponInCoroutine()
+    {
+        isChangeWeapon = true;
+        currentWeaponAnim.SetTrigger("Weapon_Out");
+
+        yield return new WaitForSeconds(changeWeaponDelayTime);
+
+        currentWeapon.gameObject.SetActive(false);
+    }
+
+    public void WeaponOut()
+    {
+        isChangeWeapon = false;
+
+        currentWeapon.gameObject.SetActive(true);
+    }
 }

@@ -12,6 +12,12 @@ public class PlayerController : MonoBehaviour
     private float applySpeed;
     [SerializeField]
     private float crouchSpeed;
+    [SerializeField]
+    private float swimSpeed;
+    [SerializeField]
+    private float swimFastSpeed;
+    [SerializeField]
+    private float upSwimSpeed;
 
     // 점프 변수
     [SerializeField]
@@ -77,13 +83,31 @@ public class PlayerController : MonoBehaviour
     {
         if(GameManager.canPlayerMove)
         {
+            WaterCheck();
             IsGround();
             TryJump();
-            TryRun();
+
+            if(!GameManager.isWater)
+            {
+                TryRun();
+            }
+
             TryCrouch();
             Move();
             CameraRotation();
             CharacterRotation();
+        }
+    }
+
+    // 물 체크
+    private void WaterCheck()
+    {
+        if(GameManager.isWater)
+        {
+            if(Input.GetKeyDown(KeyCode.LeftShift))
+                applySpeed = swimFastSpeed;
+            else
+                applySpeed = swimSpeed;
         }
     }
 
@@ -148,10 +172,20 @@ public class PlayerController : MonoBehaviour
     // 점프 시도
     private void TryJump()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && isGround && theStatusController.GetCurrentSP() > 0)
+        if(Input.GetKeyDown(KeyCode.Space) && isGround && theStatusController.GetCurrentSP() > 0 && !GameManager.isWater)
         {
             Jump();
         }
+        else if (Input.GetKey(KeyCode.Space) && GameManager.isWater)
+        {
+            UpSwim();
+        }
+    }
+
+    // 물 위에 떠오르기
+    private void UpSwim()
+    {
+        myRigid.velocity = transform.up * upSwimSpeed;
     }
 
     // 점프 동작
