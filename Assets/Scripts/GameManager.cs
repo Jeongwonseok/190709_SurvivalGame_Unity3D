@@ -13,8 +13,9 @@ public class GameManager : MonoBehaviour
     public static bool isNight = false;
     public static bool isWater = false;
 
-    private bool flag = false;
+    public static bool isPause = false; // 메뉴가 호출되면 true
 
+    private bool flag = false;
     private WeaponManager theWM;
 
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isOpenInventory || isOpenCraftManual)
+        if (isOpenInventory || isOpenCraftManual || isPause)
         //if(isOpenInventory)
         {
             Cursor.lockState = CursorLockMode.None;
