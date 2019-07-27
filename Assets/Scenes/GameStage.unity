@@ -1343,6 +1343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go_BaseUI: {fileID: 1637841256}
+  theSaveNLoad: {fileID: 1095396199}
 --- !u!1 &188981965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12598,6 +12599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095396198}
   - component: {fileID: 1095396197}
+  - component: {fileID: 1095396199}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12631,6 +12633,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1095396199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095396196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3013ed53e60344cd9bf1b08eb025af5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1098893520
 GameObject:
   m_ObjectHideFlags: 0
@@ -12939,8 +12953,8 @@ Transform:
   - {fileID: 769014875}
   - {fileID: 1873008845}
   - {fileID: 284297097475470597}
-  - {fileID: 7521289658954905806}
   - {fileID: 1994797195}
+  - {fileID: 7521289658954905806}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19242,6 +19256,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   go_InventoryBase: {fileID: 57329153}
   go_SlotsParent: {fileID: 1484992427}
+  items:
+  - {fileID: 11400000, guid: 5a2c4cc442d8c49328f90a972e6e7668, type: 2}
+  - {fileID: 11400000, guid: 7288dd63b409d484b8d17a03878fe952, type: 2}
+  - {fileID: 11400000, guid: 5f9187eedc3ec4d9dba8849607857345, type: 2}
 --- !u!114 &1369511530 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1935228401869453313, guid: fd36e0f55d2dc4c2abdd62525ece0eeb,
@@ -25078,7 +25096,7 @@ Transform:
   m_LocalScale: {x: 100, y: 8.607072, z: 15.897095}
   m_Children: []
   m_Father: {fileID: 1125631633}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7521289658954999022
 GameObject:
