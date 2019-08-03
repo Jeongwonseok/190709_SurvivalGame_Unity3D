@@ -7,8 +7,6 @@ public class Pause_Menu : MonoBehaviour
 
     [SerializeField] private GameObject go_BaseUI;
 
-    [SerializeField] private SaveNLoad theSaveNLoad;
-
 
     // Start is called before the first frame update
     void Start()
@@ -50,13 +48,11 @@ public class Pause_Menu : MonoBehaviour
     public void ClickSave()
     {
         Debug.Log("세이브");
-        theSaveNLoad.SaveData();
     }
 
     public void ClickLoad()
     {
         Debug.Log("로드");
-        theSaveNLoad.LoadData();
     }
 
     public void ClickExit()

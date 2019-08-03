@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-08-03T19:08:48.677+09:00
   initializedAtString: 2019-08-03T19:02:39.195+09:00
   localBranches: []
+=======
+  lastUpdatedAtString: 2019-07-26T20:53:49.586+09:00
+  initializedAtString: 2019-07-26T20:21:58.500+09:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+>>>>>>> parent of 1c048980... Save And Load
   remoteBranches:
   - name: origin/master
     tracking: '[None]'

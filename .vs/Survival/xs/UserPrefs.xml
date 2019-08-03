@@ -1,9 +1,23 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Title.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets/Scripts/PlayerController.cs" Line="5" Column="32" />
       <File FileName="Assets/Scripts/GameManager.cs" Line="29" Column="1" />
       <File FileName="Assets/Scripts/UI Script/Title.cs" Line="43" Column="1" />
+=======
+      <File FileName="Assets/Scripts/Building/SimpleTrap.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/DayAndNight.cs" Line="35" Column="10" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="111" Column="10" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="154" Column="26" />
+      <File FileName="Assets/Scripts/Crosshair.cs" Line="73" Column="6" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="91" Column="122" />
+      <File FileName="Assets/Scripts/Water/Water.cs" Line="97" Column="6" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="33" Column="60" />
+      <File FileName="Assets/Scripts/UI Script/Pausemenu.cs" Line="21" Column="10" />
+      <File FileName="Assets/Scripts/WeaponSway.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/Title.cs" Line="8" Column="19" />
+>>>>>>> parent of 1c048980... Save And Load
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +38,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8faead83-e3c1-44fe-8ace-a5bf8832b4ff" />
+=======
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e0c91dc-200c-450c-8c8b-e8d8dda3903b" />
+>>>>>>> parent of 1c048980... Save And Load
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
