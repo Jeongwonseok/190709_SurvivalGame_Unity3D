@@ -102,9 +102,11 @@
     <Compile Include="Assets\Scripts\UI Script\SlotToolTip.cs" />
     <Compile Include="Assets\Scripts\UI Script\StatusController.cs" />
     <Compile Include="Assets\Scripts\UI Script\Title.cs" />
+    <Compile Include="Assets\Scripts\Water\SaveNLoad.cs" />
     <Compile Include="Assets\Scripts\Water\Water.cs" />
     <Compile Include="Assets\Scripts\WeaponManager.cs" />
     <Compile Include="Assets\Scripts\WeaponSway.cs" />
+    <None Include="Assets\Saves\SaveFile.txt" />
     <None Include="Assets\Water Shader\Water_Shader.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
