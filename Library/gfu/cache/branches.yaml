@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-07-27T19:19:13.329+09:00
-  initializedAtString: 2019-07-27T19:19:13.277+09:00
-  localBranches:
-  - name: master
-    tracking: origin/master
+  lastUpdatedAtString: 2019-08-03T19:08:48.677+09:00
+  initializedAtString: 2019-08-03T19:02:39.195+09:00
+  localBranches: []
   remoteBranches:
   - name: origin/master
     tracking: '[None]'
@@ -30,14 +28,8 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - master
-    values:
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/Jeongwonseok/Survival.git
-      trackingBranch: master
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin

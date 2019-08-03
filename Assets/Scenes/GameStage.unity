@@ -9662,7 +9662,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 48
   m_CollisionDetection: 0
 --- !u!136 &738330694
 CapsuleCollider:
@@ -12953,8 +12953,8 @@ Transform:
   - {fileID: 769014875}
   - {fileID: 1873008845}
   - {fileID: 284297097475470597}
-  - {fileID: 1994797195}
   - {fileID: 7521289658954905806}
+  - {fileID: 1994797195}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25096,7 +25096,7 @@ Transform:
   m_LocalScale: {x: 100, y: 8.607072, z: 15.897095}
   m_Children: []
   m_Father: {fileID: 1125631633}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7521289658954999022
 GameObject:
