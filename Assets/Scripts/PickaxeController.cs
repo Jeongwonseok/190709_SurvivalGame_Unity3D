@@ -38,6 +38,11 @@ public class PickaxeController : CloseWeaponController
                     SoundManager.instance.PlaySE("Animal_Hit");
                     hitInfo.transform.GetComponent<WeakAnimal>().Damage(1, transform.position);
                 }
+                // 만약 나뭇가지이면 데미지 주기
+                else if (hitInfo.transform.tag == "Twig")
+                {
+                    hitInfo.transform.GetComponent<Twig>().Damage(this.transform);
+                }
 
                 isSwing = false;
                 Debug.Log(hitInfo.transform.name);

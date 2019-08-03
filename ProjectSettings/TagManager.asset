@@ -8,6 +8,7 @@ TagManager:
   - Item
   - WeakAnimal
   - StrongAnimal
+  - Twig
   layers:
   - Default
   - TransparentFX

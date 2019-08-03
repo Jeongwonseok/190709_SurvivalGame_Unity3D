@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-08-03T20:38:48.794+09:00
+  lastUpdatedAtString: 2019-08-03T21:56:28.111+09:00
   initializedAtString: 2019-08-03T20:29:39.363+09:00
   entries:
+  - path: .DS_Store
+    fullPath: /Users/jws/unity/Survival/.DS_Store
+    projectPath: .DS_Store
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .vs/Survival/xs/project-cache/Assembly-CSharp-Debug.json
     fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/project-cache/Assembly-CSharp-Debug.json
     projectPath: .vs/Survival/xs/project-cache/Assembly-CSharp-Debug.json
@@ -34,21 +40,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Saves.meta
-    fullPath: /Users/jws/unity/Survival/Assets/Saves.meta
-    projectPath: Assets/Saves.meta
+  - path: Assets/.DS_Store
+    fullPath: /Users/jws/unity/Survival/Assets/.DS_Store
+    projectPath: Assets/.DS_Store
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab
+    projectPath: Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Saves/SaveFile.txt
-    fullPath: /Users/jws/unity/Survival/Assets/Saves/SaveFile.txt
-    projectPath: Assets/Saves/SaveFile.txt
+  - path: Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab.meta
+    projectPath: Assets/Prefabs/Effect/Leaf_Hit_Effect.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Saves/SaveFile.txt.meta
-    fullPath: /Users/jws/unity/Survival/Assets/Saves/SaveFile.txt.meta
-    projectPath: Assets/Saves/SaveFile.txt.meta
+  - path: Assets/Prefabs/Environment/branch.prefab
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Environment/branch.prefab
+    projectPath: Assets/Prefabs/Environment/branch.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefabs/Environment/branch.prefab.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Environment/branch.prefab.meta
+    projectPath: Assets/Prefabs/Environment/branch.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefabs/Environment/little_twig.prefab
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Environment/little_twig.prefab
+    projectPath: Assets/Prefabs/Environment/little_twig.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefabs/Environment/little_twig.prefab.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Environment/little_twig.prefab.meta
+    projectPath: Assets/Prefabs/Environment/little_twig.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -58,69 +88,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scenes/GameTitle.unity
-    fullPath: /Users/jws/unity/Survival/Assets/Scenes/GameTitle.unity
-    projectPath: Assets/Scenes/GameTitle.unity
+  - path: Assets/Scripts/PickaxeController.cs
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/PickaxeController.cs
+    projectPath: Assets/Scripts/PickaxeController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/UI Script/Inventory.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/Inventory.cs
-    projectPath: Assets/Scripts/UI Script/Inventory.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scripts/UI Script/Pause_Menu.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/Pause_Menu.cs
-    projectPath: Assets/Scripts/UI Script/Pause_Menu.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scripts/UI Script/Title.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/Title.cs
-    projectPath: Assets/Scripts/UI Script/Title.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scripts/Water/SaveNLoad.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Water/SaveNLoad.cs
-    projectPath: Assets/Scripts/Water/SaveNLoad.cs
+  - path: Assets/Scripts/Twig.cs
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Twig.cs
+    projectPath: Assets/Scripts/Twig.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Scripts/Water/SaveNLoad.cs.meta
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Water/SaveNLoad.cs.meta
-    projectPath: Assets/Scripts/Water/SaveNLoad.cs.meta
+  - path: Assets/Scripts/Twig.cs.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Twig.cs.meta
+    projectPath: Assets/Scripts/Twig.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library/assetDatabase3
     fullPath: /Users/jws/unity/Survival/Library/assetDatabase3
     projectPath: Library/assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/CrashedAssetImports.txt
-    fullPath: /Users/jws/unity/Survival/Library/CrashedAssetImports.txt
-    projectPath: Library/CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/jws/unity/Survival/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/EditorInstance.json
-    fullPath: /Users/jws/unity/Survival/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/expandedItems
-    fullPath: /Users/jws/unity/Survival/Library/expandedItems
-    projectPath: Library/expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -136,6 +124,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/jws/unity/Survival/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/jws/unity/Survival/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
@@ -148,78 +142,66 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/jws/unity/Survival/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/jws/unity/Survival/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/30/307b3025c82f346069227db288d4849a
-    fullPath: /Users/jws/unity/Survival/Library/metadata/30/307b3025c82f346069227db288d4849a
-    projectPath: Library/metadata/30/307b3025c82f346069227db288d4849a
+  - path: Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b
+    fullPath: /Users/jws/unity/Survival/Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b
+    projectPath: Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b.info
+    projectPath: Library/metadata/4e/4e0dbd583ea1c4151b6e09708ea33e8b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/61/614439674a06f4fe3a1c29d81f2b6080
+    fullPath: /Users/jws/unity/Survival/Library/metadata/61/614439674a06f4fe3a1c29d81f2b6080
+    projectPath: Library/metadata/61/614439674a06f4fe3a1c29d81f2b6080
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/35/35f602c0e6cf5409cb45048190da8740
-    fullPath: /Users/jws/unity/Survival/Library/metadata/35/35f602c0e6cf5409cb45048190da8740
-    projectPath: Library/metadata/35/35f602c0e6cf5409cb45048190da8740
+  - path: Library/metadata/85/8516aa661b82a483d86cc47dcdd679df
+    fullPath: /Users/jws/unity/Survival/Library/metadata/85/8516aa661b82a483d86cc47dcdd679df
+    projectPath: Library/metadata/85/8516aa661b82a483d86cc47dcdd679df
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/35/35f602c0e6cf5409cb45048190da8740.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/35/35f602c0e6cf5409cb45048190da8740.info
-    projectPath: Library/metadata/35/35f602c0e6cf5409cb45048190da8740.info
+  - path: Library/metadata/85/8516aa661b82a483d86cc47dcdd679df.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/85/8516aa661b82a483d86cc47dcdd679df.info
+    projectPath: Library/metadata/85/8516aa661b82a483d86cc47dcdd679df.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/49/49d13af0abd9d4a62ab8b9f200fe32f0
-    fullPath: /Users/jws/unity/Survival/Library/metadata/49/49d13af0abd9d4a62ab8b9f200fe32f0
-    projectPath: Library/metadata/49/49d13af0abd9d4a62ab8b9f200fe32f0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c
-    fullPath: /Users/jws/unity/Survival/Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c
-    projectPath: Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c
+  - path: Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd
+    fullPath: /Users/jws/unity/Survival/Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd
+    projectPath: Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c.info
-    projectPath: Library/metadata/64/642c326e72a4848a3862e4d6b4835d3c.info
+  - path: Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd.info
+    projectPath: Library/metadata/a3/a3e6c5feab6de4ad3b921542091dc8bd.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/96/96ff424b529854ba5bc7365004a144cc
-    fullPath: /Users/jws/unity/Survival/Library/metadata/96/96ff424b529854ba5bc7365004a144cc
-    projectPath: Library/metadata/96/96ff424b529854ba5bc7365004a144cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6
-    fullPath: /Users/jws/unity/Survival/Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6
-    projectPath: Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6
+  - path: Library/metadata/b7/b793bd218a9f0434793e750ded525c0b
+    fullPath: /Users/jws/unity/Survival/Library/metadata/b7/b793bd218a9f0434793e750ded525c0b
+    projectPath: Library/metadata/b7/b793bd218a9f0434793e750ded525c0b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6.info
-    projectPath: Library/metadata/e5/e5096a0de02f143b689a0f22d07ea4f6.info
+  - path: Library/metadata/b7/b793bd218a9f0434793e750ded525c0b.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/b7/b793bd218a9f0434793e750ded525c0b.info
+    projectPath: Library/metadata/b7/b793bd218a9f0434793e750ded525c0b.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/SceneVisibilityState.asset
-    fullPath: /Users/jws/unity/Survival/Library/SceneVisibilityState.asset
-    projectPath: Library/SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/jws/unity/Survival/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -229,6 +211,66 @@ MonoBehaviour:
   - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
     fullPath: /Users/jws/unity/Survival/Library/ScriptAssemblies/Assembly-CSharp.pdb
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ShaderCache/0/0f3c15b2d99c2bef9d16bdf8300a8455.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/0/0f3c15b2d99c2bef9d16bdf8300a8455.bin
+    projectPath: Library/ShaderCache/0/0f3c15b2d99c2bef9d16bdf8300a8455.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/2/20a70c2b4e018eb9a87a7609459bdef4.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/2/20a70c2b4e018eb9a87a7609459bdef4.bin
+    projectPath: Library/ShaderCache/2/20a70c2b4e018eb9a87a7609459bdef4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/a/a33c39931bcf2f0ec6aa75685cfa0a4b.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/a/a33c39931bcf2f0ec6aa75685cfa0a4b.bin
+    projectPath: Library/ShaderCache/a/a33c39931bcf2f0ec6aa75685cfa0a4b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/e/e54b21d3069408a268d48d6180725018.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/e/e54b21d3069408a268d48d6180725018.bin
+    projectPath: Library/ShaderCache/e/e54b21d3069408a268d48d6180725018.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/EditorEncounteredVariants
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/EditorEncounteredVariants
+    projectPath: Library/ShaderCache/EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -244,15 +286,1612 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/jws/unity/Survival/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp/__Backupscenes/0.backup
     fullPath: /Users/jws/unity/Survival/Temp/__Backupscenes/0.backup
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp/UnityTempFile-2c10dbd2a6ac948b58a0ac6f0b8693b9
-    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-2c10dbd2a6ac948b58a0ac6f0b8693b9
-    projectPath: Temp/UnityTempFile-2c10dbd2a6ac948b58a0ac6f0b8693b9
+  - path: Temp/ProcessJobs/da6aa978f942c58f50d2cc9b02a0f521.bakert
+    fullPath: /Users/jws/unity/Survival/Temp/ProcessJobs/da6aa978f942c58f50d2cc9b02a0f521.bakert
+    projectPath: Temp/ProcessJobs/da6aa978f942c58f50d2cc9b02a0f521.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp/UnityTempFile-184eaec70f33e4a34ab5cff885b89cd0
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-184eaec70f33e4a34ab5cff885b89cd0
+    projectPath: Temp/UnityTempFile-184eaec70f33e4a34ab5cff885b89cd0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-3b92cab26a889414e9566d3a787d702e
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-3b92cab26a889414e9566d3a787d702e
+    projectPath: Temp/UnityTempFile-3b92cab26a889414e9566d3a787d702e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-59b2f142f82f14594bbca33201c7667e
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-59b2f142f82f14594bbca33201c7667e
+    projectPath: Temp/UnityTempFile-59b2f142f82f14594bbca33201c7667e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-798dffc828ed64a539a6cb2b819d02a2
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-798dffc828ed64a539a6cb2b819d02a2
+    projectPath: Temp/UnityTempFile-798dffc828ed64a539a6cb2b819d02a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-95a1e9677f7f04de0931eb7d27b0d4c3
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-95a1e9677f7f04de0931eb7d27b0d4c3
+    projectPath: Temp/UnityTempFile-95a1e9677f7f04de0931eb7d27b0d4c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-df75b830a072d4a1d9e50c73899326ec
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-df75b830a072d4a1d9e50c73899326ec
+    projectPath: Temp/UnityTempFile-df75b830a072d4a1d9e50c73899326ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test01.app/Contents/Frameworks/libcrypto.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Frameworks/libcrypto.dylib
+    projectPath: test01.app/Contents/Frameworks/libcrypto.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Frameworks/libssl.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Frameworks/libssl.dylib
+    projectPath: test01.app/Contents/Frameworks/libssl.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib
+    projectPath: test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libMonoPosixHelper.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libMonoPosixHelper.dylib
+    projectPath: test01.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libMonoPosixHelper.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Frameworks/UnityPlayer.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Frameworks/UnityPlayer.dylib
+    projectPath: test01.app/Contents/Frameworks/UnityPlayer.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Info.plist
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Info.plist
+    projectPath: test01.app/Contents/Info.plist
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Accessibility.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Accessibility.dylib
+    projectPath: test01.app/Contents/MacOS/Accessibility.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/AI.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/AI.dylib
+    projectPath: test01.app/Contents/MacOS/AI.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Animation.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Animation.dylib
+    projectPath: test01.app/Contents/MacOS/Animation.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/AR.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/AR.dylib
+    projectPath: test01.app/Contents/MacOS/AR.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/AssetBundle.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/AssetBundle.dylib
+    projectPath: test01.app/Contents/MacOS/AssetBundle.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Audio.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Audio.dylib
+    projectPath: test01.app/Contents/MacOS/Audio.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/ClusterInput.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/ClusterInput.dylib
+    projectPath: test01.app/Contents/MacOS/ClusterInput.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/ClusterRenderer.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/ClusterRenderer.dylib
+    projectPath: test01.app/Contents/MacOS/ClusterRenderer.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Core.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Core.dylib
+    projectPath: test01.app/Contents/MacOS/Core.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/CrashReporting.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/CrashReporting.dylib
+    projectPath: test01.app/Contents/MacOS/CrashReporting.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Director.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Director.dylib
+    projectPath: test01.app/Contents/MacOS/Director.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/FileSystemHttp.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/FileSystemHttp.dylib
+    projectPath: test01.app/Contents/MacOS/FileSystemHttp.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/GameCenter.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/GameCenter.dylib
+    projectPath: test01.app/Contents/MacOS/GameCenter.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Grid.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Grid.dylib
+    projectPath: test01.app/Contents/MacOS/Grid.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/HotReload.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/HotReload.dylib
+    projectPath: test01.app/Contents/MacOS/HotReload.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/ImageConversion.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/ImageConversion.dylib
+    projectPath: test01.app/Contents/MacOS/ImageConversion.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/IMGUI.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/IMGUI.dylib
+    projectPath: test01.app/Contents/MacOS/IMGUI.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Input.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Input.dylib
+    projectPath: test01.app/Contents/MacOS/Input.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/JSONSerialize.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/JSONSerialize.dylib
+    projectPath: test01.app/Contents/MacOS/JSONSerialize.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/libcrypto.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/libcrypto.dylib
+    projectPath: test01.app/Contents/MacOS/libcrypto.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/libcurl.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/libcurl.dylib
+    projectPath: test01.app/Contents/MacOS/libcurl.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/libssl.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/libssl.dylib
+    projectPath: test01.app/Contents/MacOS/libssl.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Localization.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Localization.dylib
+    projectPath: test01.app/Contents/MacOS/Localization.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/ParticleSystem.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/ParticleSystem.dylib
+    projectPath: test01.app/Contents/MacOS/ParticleSystem.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/PerformanceReporting.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/PerformanceReporting.dylib
+    projectPath: test01.app/Contents/MacOS/PerformanceReporting.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Physics.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Physics.dylib
+    projectPath: test01.app/Contents/MacOS/Physics.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Physics2D.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Physics2D.dylib
+    projectPath: test01.app/Contents/MacOS/Physics2D.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Profiler.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Profiler.dylib
+    projectPath: test01.app/Contents/MacOS/Profiler.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/ScreenCapture.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/ScreenCapture.dylib
+    projectPath: test01.app/Contents/MacOS/ScreenCapture.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/SharedInternals.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/SharedInternals.dylib
+    projectPath: test01.app/Contents/MacOS/SharedInternals.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/SpriteMask.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/SpriteMask.dylib
+    projectPath: test01.app/Contents/MacOS/SpriteMask.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/SpriteShape.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/SpriteShape.dylib
+    projectPath: test01.app/Contents/MacOS/SpriteShape.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Streaming.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Streaming.dylib
+    projectPath: test01.app/Contents/MacOS/Streaming.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/StyleSheets.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/StyleSheets.dylib
+    projectPath: test01.app/Contents/MacOS/StyleSheets.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Substance.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Substance.dylib
+    projectPath: test01.app/Contents/MacOS/Substance.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Terrain.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Terrain.dylib
+    projectPath: test01.app/Contents/MacOS/Terrain.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/TerrainPhysics.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/TerrainPhysics.dylib
+    projectPath: test01.app/Contents/MacOS/TerrainPhysics.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/test01
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/test01
+    projectPath: test01.app/Contents/MacOS/test01
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/TextCore.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/TextCore.dylib
+    projectPath: test01.app/Contents/MacOS/TextCore.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/TextRendering.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/TextRendering.dylib
+    projectPath: test01.app/Contents/MacOS/TextRendering.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Tilemap.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Tilemap.dylib
+    projectPath: test01.app/Contents/MacOS/Tilemap.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/TLS.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/TLS.dylib
+    projectPath: test01.app/Contents/MacOS/TLS.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UI.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UI.dylib
+    projectPath: test01.app/Contents/MacOS/UI.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UIElements.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UIElements.dylib
+    projectPath: test01.app/Contents/MacOS/UIElements.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Umbra.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Umbra.dylib
+    projectPath: test01.app/Contents/MacOS/Umbra.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UNET.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UNET.dylib
+    projectPath: test01.app/Contents/MacOS/UNET.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityAnalytics.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityAnalytics.dylib
+    projectPath: test01.app/Contents/MacOS/UnityAnalytics.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityConnect.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityConnect.dylib
+    projectPath: test01.app/Contents/MacOS/UnityConnect.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityTestProtocol.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityTestProtocol.dylib
+    projectPath: test01.app/Contents/MacOS/UnityTestProtocol.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityWebRequest.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityWebRequest.dylib
+    projectPath: test01.app/Contents/MacOS/UnityWebRequest.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityWebRequestAssetBundle.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityWebRequestAssetBundle.dylib
+    projectPath: test01.app/Contents/MacOS/UnityWebRequestAssetBundle.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityWebRequestAudio.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityWebRequestAudio.dylib
+    projectPath: test01.app/Contents/MacOS/UnityWebRequestAudio.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityWebRequestTexture.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityWebRequestTexture.dylib
+    projectPath: test01.app/Contents/MacOS/UnityWebRequestTexture.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/UnityWebRequestWWW.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/UnityWebRequestWWW.dylib
+    projectPath: test01.app/Contents/MacOS/UnityWebRequestWWW.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/VFX.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/VFX.dylib
+    projectPath: test01.app/Contents/MacOS/VFX.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Video.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Video.dylib
+    projectPath: test01.app/Contents/MacOS/Video.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/VR.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/VR.dylib
+    projectPath: test01.app/Contents/MacOS/VR.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/Wind.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/Wind.dylib
+    projectPath: test01.app/Contents/MacOS/Wind.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MacOS/XR.dylib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MacOS/XR.dylib
+    projectPath: test01.app/Contents/MacOS/XR.dylib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/config
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/MonoBleedingEdge/etc/mono/registry/last-btime
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/MonoBleedingEdge/etc/mono/registry/last-btime
+    projectPath: test01.app/Contents/MonoBleedingEdge/etc/mono/registry/last-btime
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Ageia.tif
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Ageia.tif
+    projectPath: test01.app/Contents/Resources/Ageia.tif
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/boot.config
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/boot.config
+    projectPath: test01.app/Contents/Resources/Data/boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/globalgamemanagers
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/globalgamemanagers
+    projectPath: test01.app/Contents/Resources/Data/globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/globalgamemanagers.assets
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/globalgamemanagers.assets
+    projectPath: test01.app/Contents/Resources/Data/globalgamemanagers.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/level0
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/level0
+    projectPath: test01.app/Contents/Resources/Data/level0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/level0.resS
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/level0.resS
+    projectPath: test01.app/Contents/Resources/Data/level0.resS
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/level1
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/level1
+    projectPath: test01.app/Contents/Resources/Data/level1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Mono.Security.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Mono.Security.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Mono.Security.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/mscorlib.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/mscorlib.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/mscorlib.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/netstandard.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/netstandard.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/netstandard.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Configuration.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Configuration.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Configuration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Core.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Core.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Core.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Data.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Data.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Data.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Diagnostics.StackTrace.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Diagnostics.StackTrace.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Diagnostics.StackTrace.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Drawing.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Drawing.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Drawing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Globalization.Extensions.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Globalization.Extensions.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Globalization.Extensions.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.IO.Compression.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.IO.Compression.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.IO.Compression.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Net.Http.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Net.Http.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Net.Http.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Numerics.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Numerics.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Numerics.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.Xml.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.Xml.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.Xml.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Transactions.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Transactions.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Transactions.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Xml.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Xml.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Xml.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/System.Xml.XPath.XDocument.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/System.Xml.XPath.XDocument.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/System.Xml.XPath.XDocument.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/Unity.Timeline.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/Unity.Timeline.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.FileSystemHttpModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.Purchasing.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.Purchasing.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.Purchasing.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.StyleSheetsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll.mdb
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll.mdb
+    projectPath: test01.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/resources.assets
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/resources.assets
+    projectPath: test01.app/Contents/Resources/Data/resources.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/Resources/unity_builtin_extra
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/Resources/unity_builtin_extra
+    projectPath: test01.app/Contents/Resources/Data/Resources/unity_builtin_extra
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/sharedassets0.assets
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/sharedassets0.assets
+    projectPath: test01.app/Contents/Resources/Data/sharedassets0.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/sharedassets0.assets.resS
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/sharedassets0.assets.resS
+    projectPath: test01.app/Contents/Resources/Data/sharedassets0.assets.resS
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/sharedassets0.resource
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/sharedassets0.resource
+    projectPath: test01.app/Contents/Resources/Data/sharedassets0.resource
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Data/sharedassets1.assets
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Data/sharedassets1.assets
+    projectPath: test01.app/Contents/Resources/Data/sharedassets1.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/DefaultPreferences.plist
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/DefaultPreferences.plist
+    projectPath: test01.app/Contents/Resources/DefaultPreferences.plist
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/KeyConfig.nib/classes.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/KeyConfig.nib/classes.nib
+    projectPath: test01.app/Contents/Resources/KeyConfig.nib/classes.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/KeyConfig.nib/info.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/KeyConfig.nib/info.nib
+    projectPath: test01.app/Contents/Resources/KeyConfig.nib/info.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/KeyConfig.nib/keyedobjects.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/KeyConfig.nib/keyedobjects.nib
+    projectPath: test01.app/Contents/Resources/KeyConfig.nib/keyedobjects.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/MainMenu.nib/designable.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/MainMenu.nib/designable.nib
+    projectPath: test01.app/Contents/Resources/MainMenu.nib/designable.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/MainMenu.nib/keyedobjects.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/MainMenu.nib/keyedobjects.nib
+    projectPath: test01.app/Contents/Resources/MainMenu.nib/keyedobjects.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/Mono.tif
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/Mono.tif
+    projectPath: test01.app/Contents/Resources/Mono.tif
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/ScreenSelector.nib/classes.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/ScreenSelector.nib/classes.nib
+    projectPath: test01.app/Contents/Resources/ScreenSelector.nib/classes.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/ScreenSelector.nib/designable.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/ScreenSelector.nib/designable.nib
+    projectPath: test01.app/Contents/Resources/ScreenSelector.nib/designable.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/ScreenSelector.nib/info.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/ScreenSelector.nib/info.nib
+    projectPath: test01.app/Contents/Resources/ScreenSelector.nib/info.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/ScreenSelector.nib/keyedobjects.nib
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/ScreenSelector.nib/keyedobjects.nib
+    projectPath: test01.app/Contents/Resources/ScreenSelector.nib/keyedobjects.nib
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/unity default resources
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/unity default
+      resources
+    projectPath: test01.app/Contents/Resources/unity default resources
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: test01.app/Contents/Resources/UnityPlayerIcon.png
+    fullPath: /Users/jws/unity/Survival/test01.app/Contents/Resources/UnityPlayerIcon.png
+    projectPath: test01.app/Contents/Resources/UnityPlayerIcon.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
