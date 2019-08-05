@@ -9,6 +9,7 @@ TagManager:
   - WeakAnimal
   - StrongAnimal
   - Twig
+  - Grass
   layers:
   - Default
   - TransparentFX
