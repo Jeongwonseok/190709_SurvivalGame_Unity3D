@@ -271,20 +271,48 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CharacterRotation() //좌우 캐릭터 회전
+	//좌우 캐릭터 회전
+	private void CharacterRotation()
     {
         float _yRotation = Input.GetAxisRaw("Mouse X");
         Vector3 _characterRotationY = new Vector3(0f, _yRotation, 0f) * lookSesitivity;
         myRigid.MoveRotation(myRigid.rotation * Quaternion.Euler(_characterRotationY));
     }
 
-    private void CameraRotation()  //상하 카메라 회전
+	//상하 카메라 회전
+	private void CameraRotation()
     {
-        float _xRotation = Input.GetAxisRaw("Mouse Y");
-        float _cameraRotationX = _xRotation * lookSesitivity;
-        currentCameraRotationX = currentCameraRotationX - _cameraRotationX;
-        currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
+        if(!pauseCameraRotation)
+		{
+			float _xRotation = Input.GetAxisRaw("Mouse Y");
+			float _cameraRotationX = _xRotation * lookSesitivity;
+			currentCameraRotationX = currentCameraRotationX - _cameraRotationX;
+			currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
 
-        theCamera.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+			theCamera.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+		}
+
     }
+
+	private bool pauseCameraRotation = false;
+
+    public IEnumerator TreeLookCoroutine(Vector3 _target)
+	{
+		pauseCameraRotation = true;
+
+        Quaternion direction = Quaternion.LookRotation(_target - theCamera.transform.position);
+        Vector3 eulerValue = direction.eulerAngles;
+        float destinationX = eulerValue.x;
+
+        while(Mathf.Abs(destinationX - currentCameraRotationX) >= 0.5f)
+        {
+            eulerValue = Quaternion.Lerp(theCamera.transform.localRotation, direction, 0.3f).eulerAngles;
+            theCamera.transform.localRotation = Quaternion.Euler(eulerValue.x, 0f, 0f);
+            currentCameraRotationX = theCamera.transform.localEulerAngles.x;
+
+            yield return null;
+        }
+
+		pauseCameraRotation = false;
+	}
 }

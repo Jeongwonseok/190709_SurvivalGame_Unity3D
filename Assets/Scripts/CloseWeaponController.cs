@@ -15,8 +15,17 @@ public abstract class CloseWeaponController : MonoBehaviour
     protected bool isSwing = false;
 
     protected RaycastHit hitInfo;
+
     [SerializeField]
     protected LayerMask layerMask; // 근접무기 휘두를때 Player와 충돌하지않게 하기위해
+
+    // 필요한 컴포넌트
+    private PlayerController thePlayerController;
+
+    void Start()
+    {
+        thePlayerController = FindObjectOfType<PlayerController>();
+    }
 
     protected void TryAttack()
     {
@@ -30,6 +39,7 @@ public abstract class CloseWeaponController : MonoBehaviour
                     {
                         if (currentCloseWeapon.isAxe && hitInfo.transform.tag == "Tree")
                         {
+                            StartCoroutine(thePlayerController.TreeLookCoroutine(hitInfo.transform.GetComponent<TreeComponent>().GetTreeCenterPosition()));
                             StartCoroutine(AttackCoroutine("Chop", currentCloseWeapon.workDelayA, currentCloseWeapon.workDelayB, currentCloseWeapon.workDelay));
                             return;
                         }
