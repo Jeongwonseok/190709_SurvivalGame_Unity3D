@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class SlotToolTip : MonoBehaviour
 {
+
+
     // 필요한 컴포넌트
     [SerializeField]
     private GameObject go_Base;

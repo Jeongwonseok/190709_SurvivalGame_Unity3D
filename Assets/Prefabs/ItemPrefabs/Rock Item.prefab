@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8912019997912324925}
   - component: {fileID: 5713183663084707673}
   - component: {fileID: 240359206258063880}
-  - component: {fileID: 3909108376675410066}
   - component: {fileID: -7870213833226771227}
   - component: {fileID: 7914726710773203287}
+  - component: {fileID: 3909108376675410066}
   m_Layer: 10
   m_Name: Rock Item
   m_TagString: Item
@@ -80,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &3909108376675410066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764024701889731223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40177e22103be49b48251a4e88056494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 5f9187eedc3ec4d9dba8849607857345, type: 2}
 --- !u!65 &-7870213833226771227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -122,3 +109,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3909108376675410066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7764024701889731223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40177e22103be49b48251a4e88056494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 5f9187eedc3ec4d9dba8849607857345, type: 2}

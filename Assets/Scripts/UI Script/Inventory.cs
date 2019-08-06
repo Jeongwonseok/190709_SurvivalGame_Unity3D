@@ -12,6 +12,8 @@ public class Inventory : MonoBehaviour
     private GameObject go_InventoryBase;
     [SerializeField]
     private GameObject go_SlotsParent;
+    [SerializeField]
+    private GameObject go_ToolTip;
 
     // 슬롯들
     private Slot[] slots;
@@ -64,6 +66,7 @@ public class Inventory : MonoBehaviour
     {
         GameManager.isOpenInventory = false;
         go_InventoryBase.SetActive(false);
+        go_ToolTip.SetActive(false);
     }
 
     public void AcquireItem(Item _item, int _count=1)

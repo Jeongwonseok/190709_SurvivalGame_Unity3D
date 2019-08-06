@@ -19,11 +19,16 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,  I
 
     private ItemEffectDatabase theItemEffectDatabase;
 
-    
+    private Rect baseRect;
+
+    private InputNumber theInputNumber;
+
 
     void Start()
     {
+        baseRect = transform.parent.parent.GetComponent<RectTransform>().rect;
         theItemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
+        theInputNumber = FindObjectOfType<InputNumber>();
     }
 
     // 이미지의 투명도 조절
@@ -114,10 +119,19 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,  I
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        
-
-        DragSlot.instance.SetColor(0);
-        DragSlot.instance.dragSlot = null;
+        if (DragSlot.instance.transform.localPosition.x < baseRect.xMin || DragSlot.instance.transform.localPosition.x > baseRect.xMax
+            || DragSlot.instance.transform.localPosition.y < baseRect.yMin || DragSlot.instance.transform.localPosition.y > baseRect.yMax)
+        {
+            if(DragSlot.instance.dragSlot != null)
+            {
+                theInputNumber.Call();
+            }
+        }
+        else
+        {
+            DragSlot.instance.SetColor(0);
+            DragSlot.instance.dragSlot = null;
+        }
     }
 
     public void OnDrop(PointerEventData eventData)
