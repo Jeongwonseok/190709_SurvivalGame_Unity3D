@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\UI Script\InputNumber.cs" />
     <Compile Include="Assets\Scripts\UI Script\Inventory.cs" />
     <Compile Include="Assets\Scripts\UI Script\Pause_Menu.cs" />
+    <Compile Include="Assets\Scripts\UI Script\QuickSlotController.cs" />
     <Compile Include="Assets\Scripts\UI Script\Slot.cs" />
     <Compile Include="Assets\Scripts\UI Script\SlotToolTip.cs" />
     <Compile Include="Assets\Scripts\UI Script\StatusController.cs" />

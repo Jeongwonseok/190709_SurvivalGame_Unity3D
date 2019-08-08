@@ -24,15 +24,25 @@ public class ItemEffectDatabase : MonoBehaviour
     private WeaponManager theWeaponManager;
     [SerializeField]
     private SlotToolTip theSlotToolTip;
+    [SerializeField]
+    private QuickSlotController theQuickSlotController;
+    
 
     private const string HP = "HP", SP = "SP", DP = "DP", HUNGRY = "HUNGRY", THIRSTY = "THIRSTY", SATISFY = "SATISFY";
 
+    // QuickSlotController 징검다리
+    public void IsActivatedQuickSlot(int _num)
+    {
+        theQuickSlotController.IsActivatedQuickSlot(_num);
+    }
+
     // Slot >> ItemEffectDatabase >> SlotToolTip
+    // SlotToolTip 징검다리
     public void ShowToolTip(Item _item, Vector3 _pos)
     {
         theSlotToolTip.ShowToolTip(_item, _pos);
     }
-
+    // SlotToolTip 징검다리
     public void HideToolTip()
     {
         theSlotToolTip.HideToolTip();

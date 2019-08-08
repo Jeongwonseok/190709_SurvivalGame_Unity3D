@@ -74,22 +74,6 @@ public class WeaponManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(!isChangeWeapon)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-                StartCoroutine(ChangeWeaponCoroutine("HAND", "맨손")); // 무기교체실행 (맨손)
-			else if (Input.GetKeyDown(KeyCode.Alpha2))
-				StartCoroutine(ChangeWeaponCoroutine("GUN", "SubMachineGun1")); // 무기교체실행 (서브머신건)
-            else if (Input.GetKeyDown(KeyCode.Alpha3))
-                StartCoroutine(ChangeWeaponCoroutine("AXE", "Axe")); // 무기교체실행 (도끼)
-            else if (Input.GetKeyDown(KeyCode.Alpha4))
-                StartCoroutine(ChangeWeaponCoroutine("PICKAXE", "Pickaxe")); // 무기교체실행 (곡괭이)
-        }
-    }
-
     public IEnumerator ChangeWeaponCoroutine(string _type, string _name)
     {
         isChangeWeapon = true;
