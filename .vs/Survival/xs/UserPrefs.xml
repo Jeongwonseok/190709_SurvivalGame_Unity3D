@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/QuickSlotController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Inventory.cs">
     <Files>
-      <File FileName="Assets/Scripts/UI Script/QuickSlotController.cs" Line="139" Column="34" />
-      <File FileName="Assets/Scripts/HandController.cs" Line="34" Column="36" />
+      <File FileName="Assets/Scripts/UI Script/QuickSlotController.cs" Line="129" Column="20" />
+      <File FileName="Assets/Scripts/HandController.cs" Line="31" Column="73" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="18" Column="5" />
+      <File FileName="Assets/Scripts/UI Script/Slot.cs" Line="115" Column="10" />
       <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="60" Column="10" />
       <File FileName="Assets/Scripts/UI Script/InputNumber.cs" Line="77" Column="39" />
-      <File FileName="Assets/Scripts/UI Script/Slot.cs" Line="49" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="UI Script" expanded="True">
-                  <Node name="QuickSlotController.cs" selected="True" />
+                  <Node name="Inventory.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

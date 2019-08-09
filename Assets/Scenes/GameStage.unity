@@ -28680,6 +28680,7 @@ MonoBehaviour:
   go_InventoryBase: {fileID: 57329153}
   go_SlotsParent: {fileID: 1484992427}
   go_ToolTip: {fileID: 1769145144}
+  go_QuickSlotParent: {fileID: 190183392}
   items:
   - {fileID: 11400000, guid: 5a2c4cc442d8c49328f90a972e6e7668, type: 2}
   - {fileID: 11400000, guid: 7288dd63b409d484b8d17a03878fe952, type: 2}
