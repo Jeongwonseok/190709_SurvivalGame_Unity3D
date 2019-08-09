@@ -8,11 +8,31 @@ public class HandController : CloseWeaponController
     // 활성화 여부
     public static bool isActivate = false;
 
+    [SerializeField] private QuickSlotController theQuickSlot;
+
     // Update is called once per frame 
     void Update()
     {
-        if (isActivate)
-            TryAttack();
+        if (isActivate && !Inventory.inventoryActivated)
+        {
+            if(QuickSlotController.go_HandItem == null)
+            {
+                TryAttack();
+            }
+            else
+            {
+                TryEating();
+            }
+        }
+    }
+
+    private void TryEating()
+    {
+        if(Input.GetButtonDown("Fire1") && !theQuickSlot.GetIsCoolTime())
+        {
+            currentCloseWeapon.anim.SetTrigger("Eat");
+            theQuickSlot.EatItem();
+        }
     }
 
 

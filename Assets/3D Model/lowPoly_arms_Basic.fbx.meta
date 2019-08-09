@@ -1,42 +1,113 @@
 fileFormatVersion: 2
 guid: 1cfbeb8e180c8447bb078891fd100512
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Camera
-    100004: Cube
-    100006: DownArm.L
-    100008: DownArm.L_end
-    100010: DownArm.R
-    100012: DownArm.R_end
-    100014: //RootNode
-    100016: UpArm.L
-    100018: UpArm.R
-    400000: Armature
-    400002: Camera
-    400004: Cube
-    400006: DownArm.L
-    400008: DownArm.L_end
-    400010: DownArm.R
-    400012: DownArm.R_end
-    400014: //RootNode
-    400016: UpArm.L
-    400018: UpArm.R
-    2000000: Camera
-    2100000: Material.001
-    2100002: Material
-    4300000: Cube
-    7400000: Hand_Idle
-    7400002: Hand_Run
-    7400004: Hand_Walk
-    7400006: Hand_Attack
-    7400008: Hand_Work
-    7400010: Hand_Weapon_out
-    7400012: Hand_Weapon_In
-    7400014: Hand_Item
-    9500000: //RootNode
-    13700000: Cube
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Camera
+  - first:
+      1: 100004
+    second: Cube
+  - first:
+      1: 100006
+    second: DownArm.L
+  - first:
+      1: 100008
+    second: DownArm.L_end
+  - first:
+      1: 100010
+    second: DownArm.R
+  - first:
+      1: 100012
+    second: DownArm.R_end
+  - first:
+      1: 100014
+    second: //RootNode
+  - first:
+      1: 100016
+    second: UpArm.L
+  - first:
+      1: 100018
+    second: UpArm.R
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Camera
+  - first:
+      4: 400004
+    second: Cube
+  - first:
+      4: 400006
+    second: DownArm.L
+  - first:
+      4: 400008
+    second: DownArm.L_end
+  - first:
+      4: 400010
+    second: DownArm.R
+  - first:
+      4: 400012
+    second: DownArm.R_end
+  - first:
+      4: 400014
+    second: //RootNode
+  - first:
+      4: 400016
+    second: UpArm.L
+  - first:
+      4: 400018
+    second: UpArm.R
+  - first:
+      20: 2000000
+    second: Camera
+  - first:
+      21: 2100000
+    second: Material.001
+  - first:
+      21: 2100002
+    second: Material
+  - first:
+      43: 4300000
+    second: Cube
+  - first:
+      74: 7400000
+    second: Hand_Idle
+  - first:
+      74: 7400002
+    second: Hand_Run
+  - first:
+      74: 7400004
+    second: Hand_Walk
+  - first:
+      74: 7400006
+    second: Hand_Attack
+  - first:
+      74: 7400008
+    second: Hand_Work
+  - first:
+      74: 7400010
+    second: Hand_Weapon_out
+  - first:
+      74: 7400012
+    second: Hand_Weapon_In
+  - first:
+      74: 7400014
+    second: Hand_Item
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Cube
+  - first:
+      74: 2345637711975545603
+    second: Hand_Eat
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -68,6 +139,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Idle
       takeName: Armature|ArmatureAction
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -96,6 +168,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Run
       takeName: Armature|ArmatureAction
+      internalID: 7400002
       firstFrame: 30
       lastFrame: 40
       wrapMode: 0
@@ -124,6 +197,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Walk
       takeName: Armature|ArmatureAction
+      internalID: 7400004
       firstFrame: 60
       lastFrame: 84
       wrapMode: 0
@@ -152,6 +226,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Attack
       takeName: Armature|ArmatureAction
+      internalID: 7400006
       firstFrame: 90
       lastFrame: 115
       wrapMode: 0
@@ -180,6 +255,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Work
       takeName: Armature|ArmatureAction
+      internalID: 7400008
       firstFrame: 120
       lastFrame: 145
       wrapMode: 0
@@ -208,6 +284,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Weapon_out
       takeName: Armature|ArmatureAction
+      internalID: 7400010
       firstFrame: 210
       lastFrame: 220
       wrapMode: 0
@@ -236,6 +313,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Weapon_In
       takeName: Armature|ArmatureAction
+      internalID: 7400012
       firstFrame: 220
       lastFrame: 230
       wrapMode: 0
@@ -264,8 +342,38 @@ ModelImporter:
     - serializedVersion: 16
       name: Hand_Item
       takeName: Armature|ArmatureAction
+      internalID: 7400014
       firstFrame: 240
       lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hand_Eat
+      takeName: Armature|ArmatureAction
+      internalID: 2345637711975545603
+      firstFrame: 150
+      lastFrame: 170
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -303,18 +411,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -323,10 +432,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -336,6 +446,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -102,7 +102,9 @@ public class WeaponManager : MonoBehaviour
                 break;
 			case "HAND":
 				HandController.isActivate = false;
-				break;
+                if (QuickSlotController.go_HandItem != null)
+                    Destroy(QuickSlotController.go_HandItem);
+                break;
             case "AXE":
                 AxeController.isActivate = false;
                 break;
