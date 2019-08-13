@@ -89,6 +89,8 @@
     <Compile Include="Assets\Scripts\NPC\Animal.cs" />
     <Compile Include="Assets\Scripts\NPC\FieldOfViewAngle.cs" />
     <Compile Include="Assets\Scripts\NPC\Pig.cs" />
+    <Compile Include="Assets\Scripts\NPC\PigWild.cs" />
+    <Compile Include="Assets\Scripts\NPC\StrongAnimal.cs" />
     <Compile Include="Assets\Scripts\NPC\WeakAnimal.cs" />
     <Compile Include="Assets\Scripts\PickaxeController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

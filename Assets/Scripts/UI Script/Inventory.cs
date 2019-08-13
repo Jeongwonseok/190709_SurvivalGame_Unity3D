@@ -76,6 +76,7 @@ public class Inventory : MonoBehaviour
     public void AcquireItem(Item _item, int _count=1)
     {
         PutSlot(quickslots, _item, _count);
+
         if (isNotPut)
             PutSlot(slots, _item, _count);
 

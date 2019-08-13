@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Inventory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NPC/StrongAnimal.cs">
     <Files>
-      <File FileName="Assets/Scripts/UI Script/QuickSlotController.cs" Line="129" Column="20" />
-      <File FileName="Assets/Scripts/HandController.cs" Line="31" Column="73" />
-      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="18" Column="5" />
-      <File FileName="Assets/Scripts/UI Script/Slot.cs" Line="115" Column="10" />
-      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="60" Column="10" />
-      <File FileName="Assets/Scripts/UI Script/InputNumber.cs" Line="77" Column="39" />
+      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" Line="9" Column="40" />
+      <File FileName="Assets/Scripts/NPC/Animal.cs" Line="64" Column="64" />
+      <File FileName="Assets/Scripts/NPC/StrongAnimal.cs" Line="64" Column="44" />
+      <File FileName="Assets/Scripts/NPC/PigWild.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="11" Column="10" />
+      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="65" Column="33" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="322" Column="22" />
+      <File FileName="Assets/Scripts/UI Script/StatusController.cs" Line="172" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +16,10 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True">
-                  <Node name="Inventory.cs" selected="True" />
+                <Node name="NPC" expanded="True">
+                  <Node name="StrongAnimal.cs" selected="True" />
                 </Node>
+                <Node name="UI Script" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bf37f7e5-a3e9-42e6-8704-91aa3ce0351d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f152349e-3570-47fa-be94-e52d9e2d072c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

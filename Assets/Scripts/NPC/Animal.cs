@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class Animal : MonoBehaviour
 {
+    protected StatusController thePlayerStatus;
 
     [SerializeField]
     protected string animalName; // 동물의 이름
@@ -23,6 +24,8 @@ public class Animal : MonoBehaviour
     protected bool isAction; // 행동중인지 아닌지 판별
     protected bool isWalking; // 걷는지 안걷는지 판별
     protected bool isRunning; // 뛰는지 안뛰는지
+    protected bool isChasing; // 추격중인지 판별
+    protected bool isAttacking; // 공격중인지 판별
     protected bool isDead;    // 죽었는지 안죽었는지
 
     [SerializeField]
@@ -43,6 +46,7 @@ public class Animal : MonoBehaviour
     protected BoxCollider boxCol;
     protected AudioSource theAudio;
     protected NavMeshAgent nav; // 네비게이션 컴포넌트
+    protected FieldOfViewAngle theViewAngle;
 
 
     [SerializeField]
@@ -57,14 +61,17 @@ public class Animal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        thePlayerStatus = FindObjectOfType<StatusController>();
+        theViewAngle = GetComponent<FieldOfViewAngle>();
         nav = GetComponent<NavMeshAgent>();
         theAudio = GetComponent<AudioSource>();
         currentTime = waitTime;
         isAction = true;
     }
 
+    // 자식객체에서 수정 가능하도록 >> virtual로 선언해야함!! >> pig 클래스에서 수정하도록 하기 위해!!
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         // 만약 돼지가 죽지 않았으면 실행
         if (!isDead)
@@ -90,7 +97,7 @@ public class Animal : MonoBehaviour
         if (isAction)
         {
             currentTime -= Time.deltaTime;
-            if (currentTime <= 0)
+            if (currentTime <= 0 && !isChasing && !isAttacking)
             {
                 ReSet();
             }

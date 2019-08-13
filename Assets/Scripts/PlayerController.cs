@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         theStatusController = FindObjectOfType<StatusController>();
 
         // 초기화
-        applySpeed = walkSpeed; 
+        applySpeed = walkSpeed;
         originPosY = theCamera.transform.localPosition.y;
         applyCrouchPosY = originPosY;
     }
@@ -81,13 +81,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.canPlayerMove)
+        if (GameManager.canPlayerMove)
         {
             WaterCheck();
             IsGround();
             TryJump();
 
-            if(!GameManager.isWater)
+            if (!GameManager.isWater)
             {
                 TryRun();
             }
@@ -102,9 +102,9 @@ public class PlayerController : MonoBehaviour
     // 물 체크
     private void WaterCheck()
     {
-        if(GameManager.isWater)
+        if (GameManager.isWater)
         {
-            if(Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift))
                 applySpeed = swimFastSpeed;
             else
                 applySpeed = swimSpeed;
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
     // 앉기 시도
     private void TryCrouch()
     {
-        if(Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             Crouch();
         }
@@ -150,11 +150,11 @@ public class PlayerController : MonoBehaviour
         float _posY = theCamera.transform.localPosition.y;
         int count = 0;
 
-        while(_posY != applyCrouchPosY)
+        while (_posY != applyCrouchPosY)
         {
             count++;
             // _posY 부터 applyCrouchposY 까지 0.3f씩 서서히 증가하도록 하는 기능
-            _posY = Mathf.Lerp(_posY,applyCrouchPosY,0.3f);
+            _posY = Mathf.Lerp(_posY, applyCrouchPosY, 0.3f);
             theCamera.transform.localPosition = new Vector3(0, _posY, 0);
             if (count > 16)
                 break;
@@ -165,14 +165,14 @@ public class PlayerController : MonoBehaviour
     // 지면 체크
     private void IsGround()
     {
-        isGround = Physics.Raycast(transform.position, Vector3.down, capsuleCollider.bounds.extents.y+0.1f);
+        isGround = Physics.Raycast(transform.position, Vector3.down, capsuleCollider.bounds.extents.y + 0.1f);
         theCrosshair.JumpingAnimation(!isGround);
     }
 
     // 점프 시도
     private void TryJump()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && isGround && theStatusController.GetCurrentSP() > 0 && !GameManager.isWater)
+        if (Input.GetKeyDown(KeyCode.Space) && isGround && theStatusController.GetCurrentSP() > 0 && !GameManager.isWater)
         {
             Jump();
         }
@@ -192,7 +192,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         // 앉은 상태에서 점프 시 앉은 상태 해제
-        if(isCrouch)
+        if (isCrouch)
         {
             Crouch();
         }
@@ -249,7 +249,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 _moveHorizontal = transform.right * _moveDirX;
         // ex) 오른쪽 누르면 >>  (1,0,0) * 1
-        Vector3 _moveVertical = transform.forward* _moveDirZ;
+        Vector3 _moveVertical = transform.forward * _moveDirZ;
         // ex) 뒤 누르면 >>  (0,0,1) * -1
 
         Vector3 _velocity = (_moveHorizontal + _moveVertical).normalized * applySpeed;
@@ -266,45 +266,45 @@ public class PlayerController : MonoBehaviour
             else
                 isWalk = false;
 
-            theCrosshair.WalkingAnimation(isWalk);  
+            theCrosshair.WalkingAnimation(isWalk);
             lastPos = transform.position;
         }
     }
 
-	//좌우 캐릭터 회전
-	private void CharacterRotation()
+    //좌우 캐릭터 회전
+    private void CharacterRotation()
     {
         float _yRotation = Input.GetAxisRaw("Mouse X");
         Vector3 _characterRotationY = new Vector3(0f, _yRotation, 0f) * lookSesitivity;
         myRigid.MoveRotation(myRigid.rotation * Quaternion.Euler(_characterRotationY));
     }
 
-	//상하 카메라 회전
-	private void CameraRotation()
+    //상하 카메라 회전
+    private void CameraRotation()
     {
-        if(!pauseCameraRotation)
-		{
-			float _xRotation = Input.GetAxisRaw("Mouse Y");
-			float _cameraRotationX = _xRotation * lookSesitivity;
-			currentCameraRotationX = currentCameraRotationX - _cameraRotationX;
-			currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
+        if (!pauseCameraRotation)
+        {
+            float _xRotation = Input.GetAxisRaw("Mouse Y");
+            float _cameraRotationX = _xRotation * lookSesitivity;
+            currentCameraRotationX = currentCameraRotationX - _cameraRotationX;
+            currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
 
-			theCamera.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
-		}
+            theCamera.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+        }
 
     }
 
-	private bool pauseCameraRotation = false;
+    private bool pauseCameraRotation = false;
 
     public IEnumerator TreeLookCoroutine(Vector3 _target)
-	{
-		pauseCameraRotation = true;
+    {
+        pauseCameraRotation = true;
 
         Quaternion direction = Quaternion.LookRotation(_target - theCamera.transform.position);
         Vector3 eulerValue = direction.eulerAngles;
         float destinationX = eulerValue.x;
 
-        while(Mathf.Abs(destinationX - currentCameraRotationX) >= 0.5f)
+        while (Mathf.Abs(destinationX - currentCameraRotationX) >= 0.5f)
         {
             eulerValue = Quaternion.Lerp(theCamera.transform.localRotation, direction, 0.3f).eulerAngles;
             theCamera.transform.localRotation = Quaternion.Euler(eulerValue.x, 0f, 0f);
@@ -313,6 +313,11 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
 
-		pauseCameraRotation = false;
-	}
+        pauseCameraRotation = false;
+    }
+
+    public bool GetRun()
+    {
+        return isRun;
+    }
 }

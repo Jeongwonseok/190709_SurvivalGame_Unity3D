@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class FieldOfViewAngle : MonoBehaviour
 {
@@ -8,39 +9,23 @@ public class FieldOfViewAngle : MonoBehaviour
     [SerializeField] private float viewDistance; // 시야 거리 (10미터)
     [SerializeField] private LayerMask targetMask; // 타겟 마스크 (플레이어)
 
-    // 필요한 컴포넌트
-    private Pig thePig;
+    private PlayerController thePlayer;
+    private NavMeshAgent nav;
 
     void Start()
     {
-        thePig = GetComponent<Pig>();  
+        thePlayer = FindObjectOfType<PlayerController>();
+        nav = GetComponent<NavMeshAgent>();
+        
     }
 
-    // Update is called once per frame
-    void Update()
+    public Vector3 GetTargetPos()
     {
-        View();
+        return thePlayer.transform.position;
     }
 
-    // 각도 변수에 현재 위치의 y축값 더하기
-    // 삼각함수 이용해서 (sin,cos) 리턴
-    private Vector3 BoundaryAngle(float _angle)
+    public bool View()
     {
-        _angle += transform.eulerAngles.y;
-        return new Vector3(Mathf.Sin(_angle * Mathf.Deg2Rad), 0f, Mathf.Cos(_angle * Mathf.Deg2Rad));
-    }
-
-    // 
-    private void View()
-    {
-        // 좌,우 시야각 구현
-        Vector3 _leftBoundary = BoundaryAngle(-viewAngle * 0.5f);
-        Vector3 _rightBoundary = BoundaryAngle(viewAngle * 0.5f);
-
-        // 씬에서만 확인할수있는 레이저
-        Debug.DrawRay(transform.position + transform.up, _leftBoundary, Color.red);
-        Debug.DrawRay(transform.position + transform.up, _rightBoundary, Color.red);
-
         // 거리내에 있는 물체 인식하고 배열에 집어넣기
         Collider[] _target = Physics.OverlapSphere(transform.position, viewDistance, targetMask);
 
@@ -65,11 +50,44 @@ public class FieldOfViewAngle : MonoBehaviour
                         {
                             Debug.Log("플레이어가 돼지 시야 내에 있습니다.");
                             Debug.DrawRay(transform.position + transform.up, _direction, Color.blue);
-                            thePig.Run(_hit.transform.position); // thePig 객체의 Run 메서드 실행
+                            return true;
+                            // thePig.Run(_hit.transform.position); // thePig 객체의 Run 메서드 실행
                         }
                     }
                 }
             }
+
+            if(thePlayer.GetRun())
+            {
+                if(CalcPathLength(thePlayer.transform.position) <= viewDistance)
+                {
+                    Debug.Log("돼지가 주변에서 뛰고있는 플레이어의 움직임을 파악했습니다.");
+                    return true;
+                }
+            }
         }
+        return false;
+    }
+
+    private float CalcPathLength(Vector3 _targetPos)
+    {
+        // 경로 기억하도록 객체 생성
+        NavMeshPath _path = new NavMeshPath();
+        nav.CalculatePath(_targetPos, _path);
+
+        // 배열 크기 지정
+        Vector3[] _wayPoint = new Vector3[_path.corners.Length + 2];
+
+        _wayPoint[0] = transform.position;
+        _wayPoint[_path.corners.Length + 1] = _targetPos;
+
+        float _pathLength = 0;
+        for (int i = 0; i < _path.corners.Length; i++)
+        {
+            _wayPoint[i + 1] = _path.corners[i]; // 웨이포인트의 경로 넣기
+            _pathLength += Vector3.Distance(_wayPoint[i], _wayPoint[i + 1]); // 경로 길이 계산
+        }
+
+        return _pathLength;
     }
 }
