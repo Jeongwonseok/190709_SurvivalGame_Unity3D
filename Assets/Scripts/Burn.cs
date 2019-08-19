@@ -16,7 +16,7 @@ public class Burn : MonoBehaviour
     private float currentDurationTime;
 
     [SerializeField]
-    private GameObject flame_prefab; // 불붙으면 프리펨 생성
+    private GameObject flame_prefab; // 불붙으면 프리펩 생성
     private GameObject go_tempFlame; // 그릇
 
     public void StartBurning()

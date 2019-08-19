@@ -126,7 +126,6 @@ public class QuickSlotController : MonoBehaviour
         if(selectedSlot == _num)
         {
             Excute();
-            return;
         }
         if(DragSlot.instance != null)
         {
@@ -135,7 +134,6 @@ public class QuickSlotController : MonoBehaviour
                 if (DragSlot.instance.dragSlot.GetQuickSlotNumber() == selectedSlot)
                 {
                     Excute();
-                    return;
                 }
             }
         }
@@ -201,7 +199,7 @@ public class QuickSlotController : MonoBehaviour
         go_HandItem.transform.SetParent(tf_ItemPos);
     }
 
-    public void EatItem()
+    public void DecreaseSelectedItem()
     {
         CoolTimeReset();
         AppearReset();
@@ -217,6 +215,11 @@ public class QuickSlotController : MonoBehaviour
     public bool GetIsCoolTime()
     {
         return isCoolTime;
+    }
+
+    public Slot GetSelectedSlot()
+    {
+        return quickSlots[selectedSlot];
     }
 
 }

@@ -71,4 +71,9 @@ public class Fire : MonoBehaviour
             }
         }
     }
+
+    public bool GetIsFire()
+    {
+        return isFire;
+    }
 }

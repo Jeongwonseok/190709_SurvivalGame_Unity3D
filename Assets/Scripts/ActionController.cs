@@ -9,9 +9,12 @@ public class ActionController : MonoBehaviour
     [SerializeField]
     private float range; // 습득 가능한 최대 거리
 
-    private bool pickupActivated = false; // 습득이 가능할 시 true
+    private bool pickupActivated = false; // 아이템 습득이 가능할 시 true
+    
     private bool dissolveActivated = false; // 고기 해체 가능할 시 true
     private bool isDissolving = false; // 고기 해체 중에는 true
+
+    private bool fireLookActivated = false; // 불을 근접해서 바라볼 시 true
 
     private RaycastHit hitInfo; // 충돌체 정보 저장
 
@@ -25,6 +28,8 @@ public class ActionController : MonoBehaviour
     private Inventory theInventory;
     [SerializeField]
     private WeaponManager theWeaponManager;
+    [SerializeField]
+    private QuickSlotController theQuickSlot;
     [SerializeField]
     private Transform tf_MeatDissolveTool; // 고기해체 툴
 
@@ -46,6 +51,7 @@ public class ActionController : MonoBehaviour
             CheckAction();
             CanPickUp();
             CanMeat();
+            CanDropFire();
         }
     }
 
@@ -102,6 +108,35 @@ public class ActionController : MonoBehaviour
         isDissolving = false;
     }
 
+    private void CanDropFire()
+    {
+        if (fireLookActivated)
+        {
+            if (hitInfo.transform.tag == "Fire" && hitInfo.transform.GetComponent<Fire>().GetIsFire())
+            {
+                Slot _selectedSlot = theQuickSlot.GetSelectedSlot();
+                if (_selectedSlot.item != null)
+                    DropAnItem(_selectedSlot);
+            }
+        }
+    }
+
+    private void DropAnItem(Slot _selectedSlot)
+    {
+        switch (_selectedSlot.item.itemType)
+        {
+            case Item.ItemType.Used:
+                if (_selectedSlot.item.itemName.Contains("고기"))
+                {
+                    Instantiate(_selectedSlot.item.itemPrefab, hitInfo.transform.position + Vector3.up, Quaternion.identity);
+                    theQuickSlot.DecreaseSelectedItem();
+                }
+                break;
+            case Item.ItemType.Ingredient:
+                break;
+        }
+    }
+
     private void CheckAction()
     {
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hitInfo, range, layerMask))
@@ -110,6 +145,8 @@ public class ActionController : MonoBehaviour
                 ItemInfoAppear();
             else if (hitInfo.transform.tag == "WeakAnimal" || hitInfo.transform.tag == "StrongAnimal")
                 MeatInfoAppear();
+            else if (hitInfo.transform.tag == "Fire")
+                FireInfoAppear();
             else
                 InfoDisappear();
         }
@@ -117,8 +154,17 @@ public class ActionController : MonoBehaviour
             InfoDisappear();
     }
 
+    private void Reset()
+    {
+        pickupActivated = false;
+        dissolveActivated = false;
+        fireLookActivated = false;
+    }
+
     private void ItemInfoAppear()
     {
+        Reset();
+
         pickupActivated = true;
         actionText.gameObject.SetActive(true);
         actionText.text = hitInfo.transform.GetComponent<ItemPickUp>().item.itemName + " 획득" + "<color=yellow>" + "(E)" + "</color>";
@@ -127,11 +173,24 @@ public class ActionController : MonoBehaviour
 
     private void MeatInfoAppear()
     {
-        if(hitInfo.transform.GetComponent<Animal>().isDead)
+        if (hitInfo.transform.GetComponent<Animal>().isDead)
         {
+            Reset();
             dissolveActivated = true;
             actionText.gameObject.SetActive(true);
             actionText.text = hitInfo.transform.GetComponent<Animal>().animalName + " 해체하기" + "<color=yellow>" + "(E)" + "</color>";
+        }
+    }
+
+    private void FireInfoAppear()
+    {
+        Reset();
+        fireLookActivated = true;
+
+        if (hitInfo.transform.GetComponent<Fire>().GetIsFire())
+        {
+            actionText.gameObject.SetActive(true);
+            actionText.text = "선택된 아이템 불에 넣기" + "<color=yellow>" + "(E)" + "</color>";
         }
     }
 
@@ -139,6 +198,7 @@ public class ActionController : MonoBehaviour
     {
         pickupActivated = false;
         dissolveActivated = false;
+        fireLookActivated = false;
         actionText.gameObject.SetActive(false);
     }
 

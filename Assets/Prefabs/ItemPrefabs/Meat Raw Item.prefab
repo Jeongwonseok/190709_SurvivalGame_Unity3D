@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3134911646975767206}
   - component: {fileID: 4211186056751655515}
   - component: {fileID: 283606493249322179}
+  - component: {fileID: 7822501882809284996}
   m_Layer: 10
   m_Name: Meat Raw Item
   m_TagString: Item
@@ -123,3 +124,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 1de27a0be932b4112aa8965bc483329c, type: 2}
+--- !u!114 &7822501882809284996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2623204943867750027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23c947f570fc4a1aa108103343f4c78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 5
+  go_CookedItemPrefab: {fileID: 3045617602952899251, guid: 5a306e94f206643058669d7a0bba51c8,
+    type: 3}
