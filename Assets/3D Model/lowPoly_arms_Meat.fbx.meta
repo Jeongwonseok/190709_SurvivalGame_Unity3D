@@ -1,34 +1,86 @@
 fileFormatVersion: 2
 guid: 77010665191fa4a159ccd71338868264
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Cube
-    100004: DownArm.L
-    100006: DownArm.L_end
-    100008: DownArm.R
-    100010: DownArm.R_end
-    100012: //RootNode
-    100014: UpArm.L
-    100016: UpArm.R
-    400000: Armature
-    400002: Cube
-    400004: DownArm.L
-    400006: DownArm.L_end
-    400008: DownArm.R
-    400010: DownArm.R_end
-    400012: //RootNode
-    400014: UpArm.L
-    400016: UpArm.R
-    2100000: Material.001
-    2100002: Material
-    2100004: Material.003
-    2100006: Material.002
-    4300000: Cube
-    7400000: Armature|ArmatureAction
-    9500000: //RootNode
-    13700000: Cube
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Cube
+  - first:
+      1: 100004
+    second: DownArm.L
+  - first:
+      1: 100006
+    second: DownArm.L_end
+  - first:
+      1: 100008
+    second: DownArm.R
+  - first:
+      1: 100010
+    second: DownArm.R_end
+  - first:
+      1: 100012
+    second: //RootNode
+  - first:
+      1: 100014
+    second: UpArm.L
+  - first:
+      1: 100016
+    second: UpArm.R
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Cube
+  - first:
+      4: 400004
+    second: DownArm.L
+  - first:
+      4: 400006
+    second: DownArm.L_end
+  - first:
+      4: 400008
+    second: DownArm.R
+  - first:
+      4: 400010
+    second: DownArm.R_end
+  - first:
+      4: 400012
+    second: //RootNode
+  - first:
+      4: 400014
+    second: UpArm.L
+  - first:
+      4: 400016
+    second: UpArm.R
+  - first:
+      21: 2100000
+    second: Material.001
+  - first:
+      21: 2100002
+    second: Material
+  - first:
+      21: 2100004
+    second: Material.003
+  - first:
+      21: 2100006
+    second: Material.002
+  - first:
+      43: 4300000
+    second: Cube
+  - first:
+      74: 7400000
+    second: Meat_Action
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Cube
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -56,7 +108,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Meat_Action
+      takeName: Armature|ArmatureAction
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -71,18 +152,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -91,10 +173,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -104,6 +187,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

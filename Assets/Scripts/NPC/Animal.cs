@@ -8,10 +8,15 @@ public class Animal : MonoBehaviour
     protected StatusController thePlayerStatus;
 
     [SerializeField]
-    protected string animalName; // 동물의 이름
+    public string animalName; // 동물의 이름
 
     [SerializeField]
     protected int hp; // 동물의 체력
+
+    [SerializeField]
+    protected Item item_Prefab; // 아이템
+    [SerializeField]
+    public int itemNumber; // 아이템의 획득 개수
 
     [SerializeField]
     protected float walkSpeed; // 걷기 스피드
@@ -26,7 +31,7 @@ public class Animal : MonoBehaviour
     protected bool isRunning; // 뛰는지 안뛰는지
     protected bool isChasing; // 추격중인지 판별
     protected bool isAttacking; // 공격중인지 판별
-    protected bool isDead;    // 죽었는지 안죽었는지
+    public bool isDead;    // 죽었는지 안죽었는지
 
     [SerializeField]
     protected float walkTime; // 걷기 시간
@@ -153,7 +158,10 @@ public class Animal : MonoBehaviour
         PlaySE(sound_Dead);
         isWalking = false;
         isRunning = false;
+        isChasing = false;
+        isAttacking = false;
         isDead = true;
+        nav.ResetPath();
         anim.SetTrigger("Dead");
     }
 
@@ -169,6 +177,13 @@ public class Animal : MonoBehaviour
     {
         theAudio.clip = _clip;
         theAudio.Play();
+    }
+
+    public Item GetItem()
+    {
+        this.gameObject.tag = "Untagged";
+        Destroy(this.gameObject, 3f);
+        return item_Prefab;
     }
 
 }

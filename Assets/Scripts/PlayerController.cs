@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    static public bool isActivated = true;
+
     // 스피드 조정 변수
     [SerializeField]
     private float walkSpeed;
@@ -81,21 +83,24 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.canPlayerMove)
+        if(isActivated)
         {
-            WaterCheck();
-            IsGround();
-            TryJump();
-
-            if (!GameManager.isWater)
+            if (GameManager.canPlayerMove)
             {
-                TryRun();
-            }
+                WaterCheck();
+                IsGround();
+                TryJump();
 
-            TryCrouch();
-            Move();
-            CameraRotation();
-            CharacterRotation();
+                if (!GameManager.isWater)
+                {
+                    TryRun();
+                }
+
+                TryCrouch();
+                Move();
+                CameraRotation();
+                CharacterRotation();
+            }
         }
     }
 
