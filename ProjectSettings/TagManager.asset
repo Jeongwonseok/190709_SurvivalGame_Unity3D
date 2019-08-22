@@ -12,6 +12,7 @@ TagManager:
   - Grass
   - Tree
   - Fire
+  - Structure
   layers:
   - Default
   - TransparentFX
