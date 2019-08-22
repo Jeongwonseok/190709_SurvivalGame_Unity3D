@@ -143,10 +143,13 @@ public class ActionController : MonoBehaviour
         {
             if (hitInfo.transform.tag == "Item")
                 ItemInfoAppear();
+
             else if (hitInfo.transform.tag == "WeakAnimal" || hitInfo.transform.tag == "StrongAnimal")
                 MeatInfoAppear();
+
             else if (hitInfo.transform.tag == "Fire")
                 FireInfoAppear();
+
             else
                 InfoDisappear();
         }
@@ -164,7 +167,6 @@ public class ActionController : MonoBehaviour
     private void ItemInfoAppear()
     {
         Reset();
-
         pickupActivated = true;
         actionText.gameObject.SetActive(true);
         actionText.text = hitInfo.transform.GetComponent<ItemPickUp>().item.itemName + " 획득" + "<color=yellow>" + "(E)" + "</color>";

@@ -76,7 +76,7 @@ public class CraftManual : MonoBehaviour
         if(isPreviewActivated && go_Preview.GetComponent<PreviewObject>().isBuildable())
         {
             Destroy(go_Preview);
-            Instantiate(go_Prefab, hitInfo.point, Quaternion.identity);
+            Instantiate(go_Prefab, go_Preview.transform.position, go_Preview.transform.rotation);
             isActivated = false;
             isPreviewActivated = false;
             go_Preview = null;
@@ -84,6 +84,7 @@ public class CraftManual : MonoBehaviour
         }
     }
 
+    // Fire 포지션 업데이트
     private void PreviewPositionUpdate()
     {
         if(Physics.Raycast(tf_Player.position, tf_Player.forward, out hitInfo, range, layerMask))
@@ -91,6 +92,15 @@ public class CraftManual : MonoBehaviour
             if(hitInfo.transform != null)
             {
                 Vector3 _location = hitInfo.point;
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                    go_Preview.transform.Rotate(0, -90f, 0);
+                else if (Input.GetKeyDown(KeyCode.E))
+                    go_Preview.transform.Rotate(0, +90f, 0);
+
+                // x,y,z 값 반올림 or 반내림 하기 >> y값은 미세하게 컨트롤!!
+                _location.Set(Mathf.Round(_location.x), Mathf.Round(_location.y / 0.1f) * 0.1f, Mathf.Round(_location.z));
+
                 go_Preview.transform.position = _location;
             }
         }

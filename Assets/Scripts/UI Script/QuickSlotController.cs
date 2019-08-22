@@ -127,6 +127,7 @@ public class QuickSlotController : MonoBehaviour
         {
             Excute();
         }
+
         if(DragSlot.instance != null)
         {
             if(DragSlot.instance.dragSlot != null)

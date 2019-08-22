@@ -27,7 +27,6 @@ public class Fire : MonoBehaviour
     {
         thePlayerStatus = FindObjectOfType<StatusController>();
         currentDurationTime = durationTime;
-        
     }
 
     // Update is called once per frame
@@ -48,7 +47,6 @@ public class Fire : MonoBehaviour
 
         if(currentDurationTime <= 0)
         {
-            // 불끔
             Off();
         }
     }
