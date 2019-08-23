@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Building.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Inventory.cs">
     <Files>
-      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="19" Column="45" />
-      <File FileName="Assets/Scripts/PreviewObject.cs" Line="11" Column="25" />
-      <File FileName="Assets/Scripts/Building.cs" Line="16" Column="7" />
+      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="171" Column="28" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="124" Column="16" />
+      <File FileName="Assets/Scripts/PreviewObject.cs" Line="76" Column="37" />
+      <File FileName="Assets/Scripts/Building.cs" Line="8" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Building.cs" selected="True" />
+                <Node name="UI Script" expanded="True">
+                  <Node name="Inventory.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07f8e851-2418-4d1c-ba60-d5008cb24b90" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fc300899-051b-47b7-9afa-f75f8c5ea7c5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
