@@ -24252,46 +24252,46 @@ MonoBehaviour:
       type: 3}
     go_PreviewPrefab: {fileID: 7556275562177133560, guid: 25687262e5bf7417ba8181ab2a2d5c6c,
       type: 3}
-  - craftName: "\uAE30\uB4651"
-    craftImage: {fileID: 21300000, guid: 9e703cf9c4d3f4196ba9e909b951b428, type: 3}
-    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uAE30\uB465 (\uD1A0\uB300 \uD544\uC694)"
+  - craftName: "\uBCBD"
+    craftImage: {fileID: 21300000, guid: fa2714e961a1445dfb3ce7807c261f12, type: 3}
+    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uB098\uBB34 \uBCBD"
     craftNeedItem: []
     craftNeedItemCount: 
-    go_Prefab: {fileID: 4149631528795766528, guid: f294d42312b5d404e9039358a2b9e2fe,
+    go_Prefab: {fileID: 5427028493708482136, guid: bf8610a61b00e40f9b246f718e17cdb8,
       type: 3}
-    go_PreviewPrefab: {fileID: 7556275562177133560, guid: 25687262e5bf7417ba8181ab2a2d5c6c,
+    go_PreviewPrefab: {fileID: 6392559768240390676, guid: fc2944390109f435e85b9f5bd63537f3,
       type: 3}
-  - craftName: "\uAE30\uB4652"
-    craftImage: {fileID: 21300000, guid: 9e703cf9c4d3f4196ba9e909b951b428, type: 3}
-    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uAE30\uB465 (\uD1A0\uB300 \uD544\uC694)"
+  - craftName: "\uBCBD"
+    craftImage: {fileID: 21300000, guid: fa2714e961a1445dfb3ce7807c261f12, type: 3}
+    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uB098\uBB34 "
     craftNeedItem: []
     craftNeedItemCount: 
-    go_Prefab: {fileID: 4149631528795766528, guid: f294d42312b5d404e9039358a2b9e2fe,
+    go_Prefab: {fileID: 5427028493708482136, guid: bf8610a61b00e40f9b246f718e17cdb8,
       type: 3}
-    go_PreviewPrefab: {fileID: 7556275562177133560, guid: 25687262e5bf7417ba8181ab2a2d5c6c,
+    go_PreviewPrefab: {fileID: 6392559768240390676, guid: fc2944390109f435e85b9f5bd63537f3,
       type: 3}
-  - craftName: "\uAE30\uB4653"
-    craftImage: {fileID: 21300000, guid: 9e703cf9c4d3f4196ba9e909b951b428, type: 3}
-    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uAE30\uB465 (\uD1A0\uB300 \uD544\uC694)"
+  - craftName: "\uC9C0\uBD95-\uACBD\uC0AC\uBA74"
+    craftImage: {fileID: 21300000, guid: 51d6e1dc6802b4fdb8864051b0a23ef0, type: 3}
+    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uB098\uBB34 \uC9C0\uBD95"
     craftNeedItem: []
     craftNeedItemCount: 
-    go_Prefab: {fileID: 4149631528795766528, guid: f294d42312b5d404e9039358a2b9e2fe,
+    go_Prefab: {fileID: 5321619125896695326, guid: 81580b6866b8c44cf8d8ee8fd4bd7a98,
       type: 3}
-    go_PreviewPrefab: {fileID: 7556275562177133560, guid: 25687262e5bf7417ba8181ab2a2d5c6c,
+    go_PreviewPrefab: {fileID: 8865489149351898704, guid: 295243fcf569145e2a217156d99a2fb4,
       type: 3}
-  - craftName: "\uAE30\uB4654"
-    craftImage: {fileID: 21300000, guid: 9e703cf9c4d3f4196ba9e909b951b428, type: 3}
-    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uAE30\uB465 (\uD1A0\uB300 \uD544\uC694)"
+  - craftName: "\uC9C0\uBD95-\uAF2D\uB300\uAE30"
+    craftImage: {fileID: 21300000, guid: c580e4048023041a0bb06b7088a374bc, type: 3}
+    craftDesc: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uB098\uBB34 \uC9C0\uBD95\uD0D1"
     craftNeedItem: []
     craftNeedItemCount: 
-    go_Prefab: {fileID: 4149631528795766528, guid: f294d42312b5d404e9039358a2b9e2fe,
+    go_Prefab: {fileID: 7506077097713049686, guid: 9db73dee74812401daba1edf54a5d4ae,
       type: 3}
-    go_PreviewPrefab: {fileID: 7556275562177133560, guid: 25687262e5bf7417ba8181ab2a2d5c6c,
+    go_PreviewPrefab: {fileID: 8533733882263484085, guid: 211f3daeaf96e497ab0cae84ace2e2a9,
       type: 3}
   tf_Player: {fileID: 534669905}
   layerMask:
     serializedVersion: 2
-    m_Bits: 36864
+    m_Bits: 36865
   range: 10
   go_Slots:
   - {fileID: 523095310}
