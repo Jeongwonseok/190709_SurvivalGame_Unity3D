@@ -13,8 +13,6 @@ public class Craft
     public int[] craftNeedItemCount; // 필요한 아이템의 개수
     public GameObject go_Prefab; // 실제 설치될 프리팹
     public GameObject go_PreviewPrefab; // 미리보기 프리팹
-
-
 }
 
 public class CraftManual : MonoBehaviour
@@ -251,6 +249,8 @@ public class CraftManual : MonoBehaviour
         isPreviewActivated = false;
         go_Preview = null;
         go_Prefab = null;
+
+        GameManager.isOpenInventory = false;
 
         go_BaseUI.SetActive(false);
     }

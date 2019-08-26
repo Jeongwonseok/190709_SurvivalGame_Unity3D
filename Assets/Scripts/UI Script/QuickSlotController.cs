@@ -165,7 +165,7 @@ public class QuickSlotController : MonoBehaviour
         {
             if (quickSlots[selectedSlot].item.itemType == Item.ItemType.Equipment)
                 StartCoroutine(theWeaponManager.ChangeWeaponCoroutine(quickSlots[selectedSlot].item.weaponType, quickSlots[selectedSlot].item.itemName));
-            else if(quickSlots[selectedSlot].item.itemType == Item.ItemType.Used)
+            else if(quickSlots[selectedSlot].item.itemType == Item.ItemType.Used || quickSlots[selectedSlot].item.itemType == Item.ItemType.Kit)
                 ChangeHand(quickSlots[selectedSlot].item);
             else
                 ChangeHand();
@@ -182,15 +182,18 @@ public class QuickSlotController : MonoBehaviour
 
         if(_item != null)
         {
-            StartCoroutine(HandItemCoroutine());
+            StartCoroutine(HandItemCoroutine(_item));
         }
     }
 
-    IEnumerator HandItemCoroutine()
+    IEnumerator HandItemCoroutine(Item _item)
     {
         HandController.isActivate = false;
 
         yield return new WaitUntil(() => HandController.isActivate);
+
+        if (_item.itemType == Item.ItemType.Kit)
+            HandController.currentKit = _item;
 
         go_HandItem = Instantiate(quickSlots[selectedSlot].item.itemPrefab, tf_ItemPos.position, tf_ItemPos.rotation);
         go_HandItem.GetComponent<Rigidbody>().isKinematic = true; // 중력 영향 x 하도록

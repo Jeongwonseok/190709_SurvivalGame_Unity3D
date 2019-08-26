@@ -91,7 +91,7 @@ public class Inventory : MonoBehaviour
 
     private void PutSlot(Slot[] _slots, Item _item, int _count)
     {
-        if (Item.ItemType.Equipment != _item.itemType)
+        if (Item.ItemType.Equipment != _item.itemType && Item.ItemType.Kit != _item.itemType)
         {
             for (int i = 0; i < _slots.Length; i++)
             {
