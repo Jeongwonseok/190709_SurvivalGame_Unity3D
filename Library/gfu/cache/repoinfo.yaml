@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-08-23T17:45:17.330+09:00
-  initializedAtString: 2019-08-23T17:45:17.330+09:00
+  lastUpdatedAtString: 2019-08-26T16:50:42.333+09:00
+  initializedAtString: 2019-08-26T16:50:42.333+09:00
   currentGitRemote:
     name: origin
     url: https://github.com/Jeongwonseok/Survival.git

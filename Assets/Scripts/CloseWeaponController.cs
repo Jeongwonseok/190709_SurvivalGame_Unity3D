@@ -21,15 +21,17 @@ public abstract class CloseWeaponController : MonoBehaviour
 
     // 필요한 컴포넌트
     private PlayerController thePlayerController;
+    private ComputerKit theComputer;
 
     void Start()
     {
         thePlayerController = FindObjectOfType<PlayerController>();
+        theComputer = FindObjectOfType<ComputerKit>();
     }
 
     protected void TryAttack()
     {
-        if(!Inventory.inventoryActivated)
+        if(!Inventory.inventoryActivated && !ComputerKit.computerActivated)
         {
             if (Input.GetButton("Fire1"))
             {

@@ -16,6 +16,8 @@ public class ActionController : MonoBehaviour
 
     private bool fireLookActivated = false; // 불을 근접해서 바라볼 시 true
 
+    private bool lookComputer = false; // 컴퓨터를 바라볼 시 true
+
     private RaycastHit hitInfo; // 충돌체 정보 저장
 
     [SerializeField]
@@ -32,6 +34,8 @@ public class ActionController : MonoBehaviour
     private QuickSlotController theQuickSlot;
     [SerializeField]
     private Transform tf_MeatDissolveTool; // 고기해체 툴
+    [SerializeField]
+    private ComputerKit theComputer;
 
     [SerializeField]
     private string sound_Meat; // 소리 재생
@@ -52,6 +56,7 @@ public class ActionController : MonoBehaviour
             CanPickUp();
             CanMeat();
             CanDropFire();
+            CanComputerPowerOn();
         }
     }
 
@@ -65,6 +70,22 @@ public class ActionController : MonoBehaviour
                 theInventory.AcquireItem(hitInfo.transform.GetComponent<ItemPickUp>().item);
                 Destroy(hitInfo.transform.gameObject);
                 InfoDisappear();
+            }
+        }
+    }
+
+    private void CanComputerPowerOn()
+    {
+        if (lookComputer)
+        {
+            if (hitInfo.transform != null)
+            {
+                if(!hitInfo.transform.GetComponent<ComputerKit>().isPowerOn)
+                {
+                    hitInfo.transform.GetComponent<ComputerKit>().PowerOn();
+                    InfoDisappear();
+                }
+                //Debug.Log(hitInfo.transform.GetComponent<ItemPickUp>().item.itemName + " 획득했습니다.");
             }
         }
     }
@@ -149,7 +170,8 @@ public class ActionController : MonoBehaviour
 
             else if (hitInfo.transform.tag == "Fire")
                 FireInfoAppear();
-
+            else if (hitInfo.transform.tag == "Computer")
+                ComputerInfoAppear();
             else
                 InfoDisappear();
         }
@@ -196,11 +218,23 @@ public class ActionController : MonoBehaviour
         }
     }
 
+    private void ComputerInfoAppear()
+    {
+        if (!hitInfo.transform.GetComponent<ComputerKit>().isPowerOn)
+        {
+            Reset();
+            lookComputer = true;
+            actionText.gameObject.SetActive(true);
+            actionText.text = "컴퓨터 가동 " + "<color=yellow>" + "(E)" + "</color>";
+        }
+    }
+
     private void InfoDisappear()
     {
         pickupActivated = false;
         dissolveActivated = false;
         fireLookActivated = false;
+        lookComputer = false;
         actionText.gameObject.SetActive(false);
     }
 
