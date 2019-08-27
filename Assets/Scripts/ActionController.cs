@@ -243,10 +243,13 @@ public class ActionController : MonoBehaviour
 
     private void ArchemyInfoAppear()
     {
-        Reset();
-        lookArchemyTable = true;
-        actionText.gameObject.SetActive(true);
-        actionText.text = "연금테이블 조작 " + "<color=yellow>" + "(E)" + "</color>";
+        if(!hitInfo.transform.GetComponent<ArchemyTable>().GetIsOpen())
+        {
+            Reset();
+            lookArchemyTable = true;
+            actionText.gameObject.SetActive(true);
+            actionText.text = "연금테이블 조작 " + "<color=yellow>" + "(E)" + "</color>";
+        }
     }
 
     private void InfoDisappear()

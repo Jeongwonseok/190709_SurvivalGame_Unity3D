@@ -37724,6 +37724,10 @@ MonoBehaviour:
     - HUNGRY
     - THIRSTY
     num: c40900006400000064000000
+  - itemName: Potion Red
+    part:
+    - HP
+    num: 32000000
   thePlayerStatus: {fileID: 738330698}
   theWeaponManager: {fileID: 508292999}
   theSlotToolTip: {fileID: 941157170}
@@ -37962,11 +37966,6 @@ PrefabInstance:
     - target: {fileID: 6116194520561367208, guid: f56db53498ff04f4c90d89077ee087f1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2425299005832472030, guid: f56db53498ff04f4c90d89077ee087f1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
