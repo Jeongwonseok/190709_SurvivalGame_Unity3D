@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\TreeComponent.cs" />
     <Compile Include="Assets\Scripts\Twig.cs" />
+    <Compile Include="Assets\Scripts\UI Script\ArchemyTable.cs" />
     <Compile Include="Assets\Scripts\UI Script\ComputerButton.cs" />
     <Compile Include="Assets\Scripts\UI Script\ComputerKit.cs" />
     <Compile Include="Assets\Scripts\UI Script\ComputerToolTip.cs" />

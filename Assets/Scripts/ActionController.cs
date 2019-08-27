@@ -10,13 +10,13 @@ public class ActionController : MonoBehaviour
     private float range; // 습득 가능한 최대 거리
 
     private bool pickupActivated = false; // 아이템 습득이 가능할 시 true
-    
     private bool dissolveActivated = false; // 고기 해체 가능할 시 true
     private bool isDissolving = false; // 고기 해체 중에는 true
-
     private bool fireLookActivated = false; // 불을 근접해서 바라볼 시 true
-
     private bool lookComputer = false; // 컴퓨터를 바라볼 시 true
+    private bool lookArchemyTable = false; // 연금테이블 바라볼 시 true
+
+
 
     private RaycastHit hitInfo; // 충돌체 정보 저장
 
@@ -57,6 +57,7 @@ public class ActionController : MonoBehaviour
             CanMeat();
             CanDropFire();
             CanComputerPowerOn();
+            CanArchemyTableOpen();
         }
     }
 
@@ -80,12 +81,23 @@ public class ActionController : MonoBehaviour
         {
             if (hitInfo.transform != null)
             {
-                if(!hitInfo.transform.GetComponent<ComputerKit>().isPowerOn)
+                if (!hitInfo.transform.GetComponent<ComputerKit>().isPowerOn)
                 {
                     hitInfo.transform.GetComponent<ComputerKit>().PowerOn();
                     InfoDisappear();
                 }
-                //Debug.Log(hitInfo.transform.GetComponent<ItemPickUp>().item.itemName + " 획득했습니다.");
+            }
+        }
+    }
+
+    private void CanArchemyTableOpen()
+    {
+        if (lookArchemyTable)
+        {
+            if (hitInfo.transform != null)
+            {
+                hitInfo.transform.GetComponent<ArchemyTable>().Window();
+                InfoDisappear();
             }
         }
     }
@@ -170,6 +182,8 @@ public class ActionController : MonoBehaviour
                 FireInfoAppear();
             else if (hitInfo.transform.tag == "Computer")
                 ComputerInfoAppear();
+            else if (hitInfo.transform.tag == "ArchemyTable")
+                ArchemyInfoAppear();
             else
                 InfoDisappear();
         }
@@ -227,12 +241,21 @@ public class ActionController : MonoBehaviour
         }
     }
 
+    private void ArchemyInfoAppear()
+    {
+        Reset();
+        lookArchemyTable = true;
+        actionText.gameObject.SetActive(true);
+        actionText.text = "연금테이블 조작 " + "<color=yellow>" + "(E)" + "</color>";
+    }
+
     private void InfoDisappear()
     {
         pickupActivated = false;
         dissolveActivated = false;
         fireLookActivated = false;
         lookComputer = false;
+        lookArchemyTable = false;
         actionText.gameObject.SetActive(false);
     }
 

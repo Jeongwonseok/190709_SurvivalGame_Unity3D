@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
 
     public static bool isOpenInventory = false; // 인벤토리 활성화
     public static bool isOpenCraftManual = false; // 건축 메뉴창 활성화
-    public static bool isOpenComputer = false; // 컴퓨터 키트 활성화
+    public static bool isOpenArchemyTable = false; // 연금 테이블 창 활성화
+    public static bool isOpenComputer = false; // 컴퓨터 창 활성화
 
     public static bool isNight = false;
     public static bool isWater = false;
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isOpenInventory || isOpenCraftManual || isPause || isOpenComputer)
+        if (isOpenInventory || isOpenCraftManual || isPause || isOpenArchemyTable || isOpenComputer)
         //if(isOpenInventory)
         {
             Cursor.lockState = CursorLockMode.None;

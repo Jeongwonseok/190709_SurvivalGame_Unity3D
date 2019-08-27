@@ -1,1 +1,1 @@
-{"playerPos":{"x":41.93271255493164,"y":9.002197265625,"z":74.35216522216797},"playerRot":{"x":0.0,"y":187.25001525878907,"z":0.0},"invenArrayNum":[],"invenItemName":[],"invenItemNum":[]}
+{"playerPos":{"x":72.0739974975586,"y":1.0000001192092896,"z":72.70063018798828},"playerRot":{"x":0.0,"y":285.1500549316406,"z":0.0},"invenArrayNum":[0],"invenItemName":["Potion Yellow"],"invenItemNum":[1]}
