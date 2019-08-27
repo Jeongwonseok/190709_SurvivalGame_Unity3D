@@ -1,21 +1,12 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/Inventory.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="8" Column="31" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="94" Column="75" />
-      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="15" Column="52" />
-      <File FileName="Assets/Scripts/PreviewObject.cs" Line="76" Column="37" />
-      <File FileName="Assets/Scripts/Building.cs" Line="8" Column="22" />
-      <File FileName="Assets/Scripts/UI Script/ComputerKit.cs" Line="71" Column="34" />
-      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="34" Column="44" />
-      <File FileName="Assets/Scripts/ActionController.cs" Line="84" Column="18" />
-      <File FileName="Assets/Scripts/UI Script/ComputerToolTip.cs" Line="33" Column="31" />
-      <File FileName="Assets/Scripts/UI Script/ComputerButton.cs" Line="18" Column="35" />
-      <File FileName="Assets/Scripts/Item.cs" Line="26" Column="13" />
-      <File FileName="Assets/Scripts/HandController.cs" Line="69" Column="48" />
-      <File FileName="Assets/Scripts/WeaponManager.cs" Line="106" Column="48" />
-      <File FileName="Assets/Scripts/UI Script/QuickSlotController.cs" Line="196" Column="47" />
+      <File FileName="Assets/Scripts/ActionController.cs" Line="195" Column="1" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="77" Column="33" />
+      <File FileName="Assets/Scripts/CloseWeapon.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/QuickSlotController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,8 +14,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="UI Script" expanded="True" />
-                <Node name="GameManager.cs" selected="True" />
+                <Node name="UI Script" expanded="True">
+                  <Node name="Inventory.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -34,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b92554c2-8979-42f9-abf2-a0d047ded62f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b80d5a95-bd8b-4d96-88c9-1bd0816939fb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

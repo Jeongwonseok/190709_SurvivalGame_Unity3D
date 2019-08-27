@@ -164,10 +164,8 @@ public class ActionController : MonoBehaviour
         {
             if (hitInfo.transform.tag == "Item")
                 ItemInfoAppear();
-
             else if (hitInfo.transform.tag == "WeakAnimal" || hitInfo.transform.tag == "StrongAnimal")
                 MeatInfoAppear();
-
             else if (hitInfo.transform.tag == "Fire")
                 FireInfoAppear();
             else if (hitInfo.transform.tag == "Computer")

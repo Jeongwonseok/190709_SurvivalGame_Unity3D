@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: Potion Yellow
   m_EditorClassIdentifier: 
   itemName: Potion Yellow
+  itemDesc: "\uD68C\uBCF5 \uBB3C\uC57D(\uB178\uB791)"
   itemType: 1
   itemImage: {fileID: 21300000, guid: 67b2bc5e130b24a358a4246f78b01550, type: 3}
   itemPrefab: {fileID: 788613021786932917, guid: 94b5ccd1d117c404b9a3aa18f0ff3884,
     type: 3}
+  kitPrefab: {fileID: 0}
+  kitPreviewPewfab: {fileID: 0}
   weaponType: 
