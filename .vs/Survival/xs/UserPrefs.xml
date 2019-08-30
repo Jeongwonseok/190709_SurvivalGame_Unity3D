@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/ArchemyTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/SlotToolTip.cs">
     <Files>
-      <File FileName="Assets/Scripts/ActionController.cs" Line="235" Column="61" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyTable.cs" Line="19" Column="2" />
-      <File FileName="Assets/Scripts/UI Script/ComputerKit.cs" Line="14" Column="2" />
-      <File FileName="Assets/Scripts/UI Script/ComputerToolTip.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/UI Script/ComputerButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="35" Column="70" />
-      <File FileName="Assets/Scripts/UI Script/Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ActionController.cs" Line="235" Column="13" />
+      <File FileName="Assets/Scripts/UI Script/ArchemyTable.cs" />
+      <File FileName="Assets/Scripts/UI Script/ComputerKit.cs" />
+      <File FileName="Assets/Scripts/UI Script/ComputerToolTip.cs" />
+      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" />
+      <File FileName="Assets/Scripts/UI Script/ComputerButton.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/UI Script/Inventory.cs" />
+      <File FileName="Assets/Scripts/DayAndNight.cs" />
+      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +18,10 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="Building" expanded="True" />
+                <Node name="NPC" expanded="True" />
                 <Node name="UI Script" expanded="True">
-                  <Node name="ArchemyTable.cs" selected="True" />
+                  <Node name="SlotToolTip.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -28,7 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b80d5a95-bd8b-4d96-88c9-1bd0816939fb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f55810d2-e91b-4681-af2d-05aa31db88e4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

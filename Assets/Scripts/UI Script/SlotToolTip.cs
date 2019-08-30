@@ -26,7 +26,6 @@ public class SlotToolTip : MonoBehaviour
         _pos += new Vector3(go_Base.GetComponent<RectTransform>().rect.width * 0.5f, -go_Base.GetComponent<RectTransform>().rect.height, 0f);
         go_Base.transform.position = _pos;
 
-
         txt_ItemName.text = _item.itemName;
         txt_ItemDesc.text = _item.itemDesc;
 

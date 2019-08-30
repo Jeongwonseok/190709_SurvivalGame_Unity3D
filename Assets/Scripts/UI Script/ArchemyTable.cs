@@ -32,12 +32,23 @@ public class ArchemyTable : MonoBehaviour
 
     private float craftingTime;        // 포션 제작 시간
     private float currentCraftingTime; // 실제 계산
+    private int page = 1; // 연금 제작 테이블의 페이지
+    [SerializeField] private int theNumberOfSlot; // 한 페이지당 슬롯의 최대 개수(4개)
 
+    [SerializeField] private Image[] image_ArchemyItems; // 페이지에 따른 포션 이미지들
+    [SerializeField] private Text[] text_ArchemyItems; // 페이지에 따른 포션 텍스트들
+    [SerializeField] private Button[] btn_ArchemyItems; // 페이지에 따른 포션 버튼
     [SerializeField] private Slider slider_Guage; // 슬라이더 게이지
     [SerializeField] private Transform tf_BaseUI; // 베이스 UI
     [SerializeField] private Transform tf_PotionAppearPos; // 포션 나올 위치
     [SerializeField] private GameObject go_Liquid; // 동작시키면 액체 등장
     [SerializeField] private Image[] image_CraftingItems; // 대기열 슬롯에 있는 아이템 이미지들
+
+    void Start()
+    {
+        ClearSlot();
+        PageSetting();
+    }
 
     // Update is called once per frame
     void Update()
@@ -136,10 +147,12 @@ public class ArchemyTable : MonoBehaviour
     {
         if(archemyItemQueue.Count < 3)
         {
-            archemyItemQueue.Enqueue(archemyItems[_buttonNum]);
+            int archemyItemArrayNumber = _buttonNum + ((page - 1) * theNumberOfSlot);
+
+            archemyItemQueue.Enqueue(archemyItems[archemyItemArrayNumber]);
 
             image_CraftingItems[archemyItemQueue.Count].gameObject.SetActive(true);
-            image_CraftingItems[archemyItemQueue.Count].sprite = archemyItems[_buttonNum].itemImage;
+            image_CraftingItems[archemyItemQueue.Count].sprite = archemyItems[archemyItemArrayNumber].itemImage;
         }
     }
 
@@ -150,4 +163,53 @@ public class ArchemyTable : MonoBehaviour
 
         Instantiate(currentCraftingItem.go_ItemPrefab, tf_PotionAppearPos.position, Quaternion.identity);
     }
+
+    public void UpButton()
+    {
+        if (page != 1)
+            page--;
+        else
+            page = 1 + (archemyItems.Length);
+
+        ClearSlot();
+        PageSetting();
+    }
+
+    public void DownButton()
+    {
+        if (page < 1 + (archemyItems.Length))
+            page++;
+        else
+            page = 1;
+
+        ClearSlot();
+        PageSetting();
+    }
+
+    private void ClearSlot()
+    {
+        for (int i = 0; i < theNumberOfSlot; i++)
+        {
+            image_ArchemyItems[i].sprite = null;
+            image_ArchemyItems[i].gameObject.SetActive(false);
+            btn_ArchemyItems[i].gameObject.SetActive(false);
+            text_ArchemyItems[i].text = "";
+        }
+    }
+
+    private void PageSetting()
+    {
+        int pageArrayStartNumber = (page - 1) * theNumberOfSlot;
+        for (int i = pageArrayStartNumber; i < archemyItems.Length; i++)
+        {
+            if (i == page * theNumberOfSlot)
+                break;
+
+            image_ArchemyItems[i - pageArrayStartNumber].sprite = archemyItems[i].itemImage;
+            image_ArchemyItems[i - pageArrayStartNumber].gameObject.SetActive(true);
+            btn_ArchemyItems[i - pageArrayStartNumber].gameObject.SetActive(true);
+            text_ArchemyItems[i - pageArrayStartNumber].text = archemyItems[i].itemName + "\n" + archemyItems[i].itemDesc;
+        }
+    }
+
 }
