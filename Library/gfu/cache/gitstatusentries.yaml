@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-08-30T20:08:54.307+09:00
-  initializedAtString: 2019-08-30T17:58:58.387+09:00
+  lastUpdatedAtString: 2019-08-31T20:11:48.779+09:00
+  initializedAtString: 2019-08-31T18:48:25.362+09:00
   entries:
   - path: .vs/Survival/xs/project-cache/Assembly-CSharp-Debug.json
     fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/project-cache/Assembly-CSharp-Debug.json
@@ -28,18 +28,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: .vs/Survival/xs/sqlite3/storage.ide-shm
-    fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/sqlite3/storage.ide-shm
-    projectPath: .vs/Survival/xs/sqlite3/storage.ide-shm
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: .vs/Survival/xs/sqlite3/storage.ide-wal
-    fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/sqlite3/storage.ide-wal
-    projectPath: .vs/Survival/xs/sqlite3/storage.ide-wal
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: .vs/Survival/xs/UserPrefs.xml
     fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/UserPrefs.xml
     projectPath: .vs/Survival/xs/UserPrefs.xml
@@ -52,51 +40,123 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Prefabs/Kit/Archemy Table.prefab
-    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/Kit/Archemy Table.prefab
-    projectPath: Assets/Prefabs/Kit/Archemy Table.prefab
+  - path: Assets/Animation/Trap.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap.meta
+    projectPath: Assets/Animation/Trap.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_Activate.anim
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_Activate.anim
+    projectPath: Assets/Animation/Trap/DeadTrap_Activate.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_Activate.anim.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_Activate.anim.meta
+    projectPath: Assets/Animation/Trap/DeadTrap_Activate.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_Animator.controller
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_Animator.controller
+    projectPath: Assets/Animation/Trap/DeadTrap_Animator.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_Animator.controller.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_Animator.controller.meta
+    projectPath: Assets/Animation/Trap/DeadTrap_Animator.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_DeActivate.anim
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_DeActivate.anim
+    projectPath: Assets/Animation/Trap/DeadTrap_DeActivate.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Animation/Trap/DeadTrap_DeActivate.anim.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Animation/Trap/DeadTrap_DeActivate.anim.meta
+    projectPath: Assets/Animation/Trap/DeadTrap_DeActivate.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefabs/ItemPrefabs/DeadTrap.prefab
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/ItemPrefabs/DeadTrap.prefab
+    projectPath: Assets/Prefabs/ItemPrefabs/DeadTrap.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Prefabs/ItemPrefabs/DeadTrap.prefab.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Prefabs/ItemPrefabs/DeadTrap.prefab.meta
+    projectPath: Assets/Prefabs/ItemPrefabs/DeadTrap.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets/Scenes/GameStage.unity
     fullPath: /Users/jws/unity/Survival/Assets/Scenes/GameStage.unity
     projectPath: Assets/Scenes/GameStage.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/UI Script/ArchemyButton.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/ArchemyButton.cs
-    projectPath: Assets/Scripts/UI Script/ArchemyButton.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/UI Script/ArchemyButton.cs.meta
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/ArchemyButton.cs.meta
-    projectPath: Assets/Scripts/UI Script/ArchemyButton.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/UI Script/ArchemyTable.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/ArchemyTable.cs
-    projectPath: Assets/Scripts/UI Script/ArchemyTable.cs
+  - path: Assets/Scripts/ActionController.cs
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/ActionController.cs
+    projectPath: Assets/Scripts/ActionController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/UI Script/ArchemyToolTip.cs
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/ArchemyToolTip.cs
-    projectPath: Assets/Scripts/UI Script/ArchemyToolTip.cs
+  - path: Assets/Scripts/Building/DeadTrap.cs
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Building/DeadTrap.cs
+    projectPath: Assets/Scripts/Building/DeadTrap.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Scripts/UI Script/ArchemyToolTip.cs.meta
-    fullPath: /Users/jws/unity/Survival/Assets/Scripts/UI Script/ArchemyToolTip.cs.meta
-    projectPath: Assets/Scripts/UI Script/ArchemyToolTip.cs.meta
+  - path: Assets/Scripts/Building/DeadTrap.cs.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Building/DeadTrap.cs.meta
+    projectPath: Assets/Scripts/Building/DeadTrap.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Building/TrapDamage.cs
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Building/TrapDamage.cs
+    projectPath: Assets/Scripts/Building/TrapDamage.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Building/TrapDamage.cs.meta
+    fullPath: /Users/jws/unity/Survival/Assets/Scripts/Building/TrapDamage.cs.meta
+    projectPath: Assets/Scripts/Building/TrapDamage.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library/assetDatabase3
     fullPath: /Users/jws/unity/Survival/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/CrashedAssetImports.txt
+    fullPath: /Users/jws/unity/Survival/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/jws/unity/Survival/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/EditorInstance.json
+    fullPath: /Users/jws/unity/Survival/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/expandedItems
+    fullPath: /Users/jws/unity/Survival/Library/expandedItems
+    projectPath: Library/expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -112,12 +172,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/jws/unity/Survival/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/jws/unity/Survival/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
@@ -130,60 +184,114 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/jws/unity/Survival/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/InspectorExpandedItems.asset
     fullPath: /Users/jws/unity/Survival/Library/InspectorExpandedItems.asset
     projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/39/39f8234706afd42c6beaca6560acab77
-    fullPath: /Users/jws/unity/Survival/Library/metadata/39/39f8234706afd42c6beaca6560acab77
-    projectPath: Library/metadata/39/39f8234706afd42c6beaca6560acab77
+  - path: Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33
+    fullPath: /Users/jws/unity/Survival/Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33
+    projectPath: Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33.info
+    projectPath: Library/metadata/0d/0dfe107cc28a54c57b0738ec07546f33.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/34/3461c653d540b44eb949eac34325772a
+    fullPath: /Users/jws/unity/Survival/Library/metadata/34/3461c653d540b44eb949eac34325772a
+    projectPath: Library/metadata/34/3461c653d540b44eb949eac34325772a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/34/3461c653d540b44eb949eac34325772a.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/34/3461c653d540b44eb949eac34325772a.info
+    projectPath: Library/metadata/34/3461c653d540b44eb949eac34325772a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/36/36efd2fe7c5164683a20888894208185
+    fullPath: /Users/jws/unity/Survival/Library/metadata/36/36efd2fe7c5164683a20888894208185
+    projectPath: Library/metadata/36/36efd2fe7c5164683a20888894208185
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/36/36efd2fe7c5164683a20888894208185.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/36/36efd2fe7c5164683a20888894208185.info
+    projectPath: Library/metadata/36/36efd2fe7c5164683a20888894208185.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/39/397f89f787be24c90a4c2b4106c18872
+    fullPath: /Users/jws/unity/Survival/Library/metadata/39/397f89f787be24c90a4c2b4106c18872
+    projectPath: Library/metadata/39/397f89f787be24c90a4c2b4106c18872
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/39/397f89f787be24c90a4c2b4106c18872.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/39/397f89f787be24c90a4c2b4106c18872.info
+    projectPath: Library/metadata/39/397f89f787be24c90a4c2b4106c18872.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/3d/3de38b755a9684ac1aeff4ad54e8a6f6
+    fullPath: /Users/jws/unity/Survival/Library/metadata/3d/3de38b755a9684ac1aeff4ad54e8a6f6
+    projectPath: Library/metadata/3d/3de38b755a9684ac1aeff4ad54e8a6f6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20
-    fullPath: /Users/jws/unity/Survival/Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20
-    projectPath: Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20.info
-    projectPath: Library/metadata/4a/4a7be76f1a5704ab0853bcd1f462bc20.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
     fullPath: /Users/jws/unity/Survival/Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
     projectPath: Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2
-    fullPath: /Users/jws/unity/Survival/Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2
-    projectPath: Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2
+  - path: Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e
+    fullPath: /Users/jws/unity/Survival/Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e
+    projectPath: Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2.info
-    projectPath: Library/metadata/8a/8a8d30ffc8a2d43368a6ebf0a34d1eb2.info
+  - path: Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e.info
+    projectPath: Library/metadata/a0/a04a5b945e3be42438e2b62e042be66e.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1
-    fullPath: /Users/jws/unity/Survival/Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1
-    projectPath: Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1
+  - path: Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261
+    fullPath: /Users/jws/unity/Survival/Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261
+    projectPath: Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1.info
-    fullPath: /Users/jws/unity/Survival/Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1.info
-    projectPath: Library/metadata/f5/f56db53498ff04f4c90d89077ee087f1.info
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261.info
+    projectPath: Library/metadata/b8/b8aab0fe0982e458bbdc74bee57be261.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65
+    fullPath: /Users/jws/unity/Survival/Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65
+    projectPath: Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65.info
+    fullPath: /Users/jws/unity/Survival/Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65.info
+    projectPath: Library/metadata/f6/f64d0b58f454f4450866dfbe2c93db65.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/jws/unity/Survival/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -202,9 +310,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/StateCache/SceneView/848abc-mainStage.json
+    fullPath: /Users/jws/unity/Survival/Library/StateCache/SceneView/848abc-mainStage.json
+    projectPath: Library/StateCache/SceneView/848abc-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: /Users/jws/unity/Survival/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/jws/unity/Survival/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -218,17 +338,35 @@ MonoBehaviour:
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-167a38340ab384ed58b04aa3d5380886
     projectPath: Temp/UnityTempFile-167a38340ab384ed58b04aa3d5380886
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp/UnityTempFile-1c9cf39e7c8ae4dfcbc0b37b990a1d7a
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-1c9cf39e7c8ae4dfcbc0b37b990a1d7a
     projectPath: Temp/UnityTempFile-1c9cf39e7c8ae4dfcbc0b37b990a1d7a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp/UnityTempFile-255d1ed4ad97e4c01ad82a8d76fca35d
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-255d1ed4ad97e4c01ad82a8d76fca35d
     projectPath: Temp/UnityTempFile-255d1ed4ad97e4c01ad82a8d76fca35d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-2e2e1fcae93f44dd59a6437cb729e3a8
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-2e2e1fcae93f44dd59a6437cb729e3a8
+    projectPath: Temp/UnityTempFile-2e2e1fcae93f44dd59a6437cb729e3a8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-40d25578698a047c789e7b68b3ffa0bf
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-40d25578698a047c789e7b68b3ffa0bf
+    projectPath: Temp/UnityTempFile-40d25578698a047c789e7b68b3ffa0bf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-7da719585c8814ca08e16f12f6ce7536
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-7da719585c8814ca08e16f12f6ce7536
+    projectPath: Temp/UnityTempFile-7da719585c8814ca08e16f12f6ce7536
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -236,29 +374,59 @@ MonoBehaviour:
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-9e0ba6dc5cbe34d85b1136ff4ebb10b3
     projectPath: Temp/UnityTempFile-9e0ba6dc5cbe34d85b1136ff4ebb10b3
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-a527c566afc454d03b400a3affdfd508
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-a527c566afc454d03b400a3affdfd508
+    projectPath: Temp/UnityTempFile-a527c566afc454d03b400a3affdfd508
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-a904d84ac0dd74280aac2b98a434c73c
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-a904d84ac0dd74280aac2b98a434c73c
+    projectPath: Temp/UnityTempFile-a904d84ac0dd74280aac2b98a434c73c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-bc1a46c8884ba450dbf7c8fc3cfd30c9
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-bc1a46c8884ba450dbf7c8fc3cfd30c9
+    projectPath: Temp/UnityTempFile-bc1a46c8884ba450dbf7c8fc3cfd30c9
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Temp/UnityTempFile-bd46637698b5a488481ca88cc865e57a
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-bd46637698b5a488481ca88cc865e57a
     projectPath: Temp/UnityTempFile-bd46637698b5a488481ca88cc865e57a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp/UnityTempFile-bdd0f9fbd56ec4f9ebcc3cee0516413e
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-bdd0f9fbd56ec4f9ebcc3cee0516413e
     projectPath: Temp/UnityTempFile-bdd0f9fbd56ec4f9ebcc3cee0516413e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-c9276b75a867a485886456d2eb881abf
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-c9276b75a867a485886456d2eb881abf
+    projectPath: Temp/UnityTempFile-c9276b75a867a485886456d2eb881abf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp/UnityTempFile-f540d0d1dbfda47ba98535c5247e431b
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-f540d0d1dbfda47ba98535c5247e431b
     projectPath: Temp/UnityTempFile-f540d0d1dbfda47ba98535c5247e431b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Temp/UnityTempFile-f9d5b4a4a33ac4118a909878897c336b
     fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-f9d5b4a4a33ac4118a909878897c336b
     projectPath: Temp/UnityTempFile-f9d5b4a4a33ac4118a909878897c336b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Temp/UnityTempFile-ff561a156784d495885d8997bf2a8ede
+    fullPath: /Users/jws/unity/Survival/Temp/UnityTempFile-ff561a156784d495885d8997bf2a8ede
+    projectPath: Temp/UnityTempFile-ff561a156784d495885d8997bf2a8ede
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI Script/ArchemyButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Building/TrapDamage.cs">
     <Files>
-      <File FileName="Assets/Scripts/ActionController.cs" Line="235" Column="13" />
+      <File FileName="Assets/Scripts/ActionController.cs" Line="267" Column="1" />
       <File FileName="Assets/Scripts/UI Script/ComputerKit.cs" />
       <File FileName="Assets/Scripts/UI Script/ComputerToolTip.cs" />
       <File FileName="Assets/Scripts/UI Script/CraftManual.cs" />
@@ -9,10 +9,12 @@
       <File FileName="Assets/Scripts/GameManager.cs" />
       <File FileName="Assets/Scripts/UI Script/Inventory.cs" />
       <File FileName="Assets/Scripts/DayAndNight.cs" />
-      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" Line="26" Column="35" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyTable.cs" Line="230" Column="6" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyToolTip.cs" Line="27" Column="60" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyButton.cs" Line="4" Column="31" />
+      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" />
+      <File FileName="Assets/Scripts/UI Script/ArchemyTable.cs" Line="276" Column="1" />
+      <File FileName="Assets/Scripts/UI Script/ArchemyToolTip.cs" />
+      <File FileName="Assets/Scripts/UI Script/ArchemyButton.cs" />
+      <File FileName="Assets/Scripts/Building/DeadTrap.cs" Line="33" Column="33" />
+      <File FileName="Assets/Scripts/Building/TrapDamage.cs" Line="1" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,11 +22,11 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Building" expanded="True" />
-                <Node name="NPC" expanded="True" />
-                <Node name="UI Script" expanded="True">
-                  <Node name="ArchemyButton.cs" selected="True" />
+                <Node name="Building" expanded="True">
+                  <Node name="TrapDamage.cs" selected="True" />
                 </Node>
+                <Node name="NPC" expanded="True" />
+                <Node name="UI Script" expanded="True" />
                 <Node name="Water" expanded="True" />
               </Node>
             </Node>
@@ -35,7 +37,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f55810d2-e91b-4681-af2d-05aa31db88e4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="65dcdf84-4a30-45a5-9346-617c09271ee9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

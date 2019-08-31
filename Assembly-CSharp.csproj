@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\ActionController.cs" />
     <Compile Include="Assets\Scripts\AxeController.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
+    <Compile Include="Assets\Scripts\Building\DeadTrap.cs" />
     <Compile Include="Assets\Scripts\Building\SimpleTrap.cs" />
+    <Compile Include="Assets\Scripts\Building\TrapDamage.cs" />
     <Compile Include="Assets\Scripts\Burn.cs" />
     <Compile Include="Assets\Scripts\CloseWeapon.cs" />
     <Compile Include="Assets\Scripts\CloseWeaponController.cs" />

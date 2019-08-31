@@ -15,6 +15,7 @@ TagManager:
   - Structure
   - Computer
   - ArchemyTable
+  - Trap
   layers:
   - Default
   - TransparentFX

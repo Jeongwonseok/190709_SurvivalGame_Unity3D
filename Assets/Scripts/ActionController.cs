@@ -15,6 +15,7 @@ public class ActionController : MonoBehaviour
     private bool fireLookActivated = false; // 불을 근접해서 바라볼 시 true
     private bool lookComputer = false; // 컴퓨터를 바라볼 시 true
     private bool lookArchemyTable = false; // 연금테이블 바라볼 시 true
+    private bool lookActivatedTrap = false; // 가동된 함정을 바라볼 시 true
 
 
 
@@ -58,6 +59,7 @@ public class ActionController : MonoBehaviour
             CanDropFire();
             CanComputerPowerOn();
             CanArchemyTableOpen();
+            CanReInstallTrap();
         }
     }
 
@@ -97,6 +99,18 @@ public class ActionController : MonoBehaviour
             if (hitInfo.transform != null)
             {
                 hitInfo.transform.GetComponent<ArchemyTable>().Window();
+                InfoDisappear();
+            }
+        }
+    }
+
+    private void CanReInstallTrap()
+    {
+        if (lookActivatedTrap)
+        {
+            if (hitInfo.transform != null)
+            {
+                hitInfo.transform.GetComponent<DeadTrap>().ReInstall();
                 InfoDisappear();
             }
         }
@@ -184,6 +198,8 @@ public class ActionController : MonoBehaviour
                 ComputerInfoAppear();
             else if (hitInfo.transform.tag == "ArchemyTable")
                 ArchemyInfoAppear();
+            else if (hitInfo.transform.tag == "Trap")
+                TrapInfoAppear();
             else
                 InfoDisappear();
         }
@@ -243,12 +259,23 @@ public class ActionController : MonoBehaviour
 
     private void ArchemyInfoAppear()
     {
-        if(!hitInfo.transform.GetComponent<ArchemyTable>().GetIsOpen())
+        if (!hitInfo.transform.GetComponent<ArchemyTable>().GetIsOpen())
         {
             Reset();
             lookArchemyTable = true;
             actionText.gameObject.SetActive(true);
             actionText.text = "연금테이블 조작 " + "<color=yellow>" + "(E)" + "</color>";
+        }
+    }
+
+    private void TrapInfoAppear()
+    {
+        if (hitInfo.transform.GetComponent<DeadTrap>().GetIsActivated())
+        {
+            Reset();
+            lookActivatedTrap = true;
+            actionText.gameObject.SetActive(true);
+            actionText.text = "함정 재설치 " + "<color=yellow>" + "(E)" + "</color>";
         }
     }
 
@@ -259,6 +286,7 @@ public class ActionController : MonoBehaviour
         fireLookActivated = false;
         lookComputer = false;
         lookArchemyTable = false;
+        lookActivatedTrap = false;
         actionText.gameObject.SetActive(false);
     }
 
