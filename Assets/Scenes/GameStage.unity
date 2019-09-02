@@ -10939,6 +10939,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: go_rock_item_prefab
+      value: 
+      objectReference: {fileID: 7764024701889731223, guid: f5be076916e8f4796a85d6ff5b45247d,
+        type: 3}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: count
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: destroy_Sound
+      value: Rock_Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: strike_Sound
+      value: Pickaxe_Strike
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
 --- !u!1 &444102563
@@ -39085,6 +39106,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: go_rock_item_prefab
+      value: 
+      objectReference: {fileID: 7764024701889731223, guid: f5be076916e8f4796a85d6ff5b45247d,
+        type: 3}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: count
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: destroy_Sound
+      value: Rock_Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972523748324428368, guid: 37a7c65134c88494a9afbb4fca720aff,
+        type: 3}
+      propertyPath: strike_Sound
+      value: Pickaxe_Strike
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a7c65134c88494a9afbb4fca720aff, type: 3}
 --- !u!114 &2035212857
@@ -41859,7 +41901,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2167393625660013161}
-  m_LocalRotation: {x: -0.14204599, y: 0.15398319, z: 0.9778049, w: 0.0031072705}
+  m_LocalRotation: {x: -0.1408238, y: 0.15265831, z: 0.97818935, w: 0.0031084921}
   m_LocalPosition: {x: -0.014950447, y: 0.013769859, z: 0.01277845}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
   m_Children:

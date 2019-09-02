@@ -34,6 +34,11 @@ public class AxeController : CloseWeaponController
                 {
                     hitInfo.transform.GetComponent<TreeComponent>().Chop(hitInfo.point, transform.eulerAngles.y);
                 }
+                // 만약 나뭇가지이면 데미지 주기
+                else if (hitInfo.transform.tag == "Twig")
+                {
+                    hitInfo.transform.GetComponent<Twig>().Damage(this.transform);
+                }
 
                 isSwing = false;
                 Debug.Log(hitInfo.transform.name);

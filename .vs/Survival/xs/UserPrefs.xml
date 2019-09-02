@@ -1,20 +1,13 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Building/TrapDamage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/ActionController.cs" Line="267" Column="1" />
-      <File FileName="Assets/Scripts/UI Script/ComputerKit.cs" />
-      <File FileName="Assets/Scripts/UI Script/ComputerToolTip.cs" />
-      <File FileName="Assets/Scripts/UI Script/CraftManual.cs" />
-      <File FileName="Assets/Scripts/UI Script/ComputerButton.cs" />
-      <File FileName="Assets/Scripts/GameManager.cs" />
-      <File FileName="Assets/Scripts/UI Script/Inventory.cs" />
-      <File FileName="Assets/Scripts/DayAndNight.cs" />
-      <File FileName="Assets/Scripts/UI Script/SlotToolTip.cs" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyTable.cs" Line="276" Column="1" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyToolTip.cs" />
-      <File FileName="Assets/Scripts/UI Script/ArchemyButton.cs" />
-      <File FileName="Assets/Scripts/Building/DeadTrap.cs" Line="33" Column="33" />
-      <File FileName="Assets/Scripts/Building/TrapDamage.cs" Line="1" Column="2" />
+      <File FileName="Assets/Scripts/HandController.cs" Line="18" Column="63" />
+      <File FileName="Assets/Scripts/PickaxeController.cs" Line="40" Column="18" />
+      <File FileName="Assets/Scripts/AxeController.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/GunController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponManager.cs" Line="87" Column="67" />
+      <File FileName="Assets/Scripts/CloseWeaponController.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="13" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,12 +15,9 @@
           <Node name="Survival" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Building" expanded="True">
-                  <Node name="TrapDamage.cs" selected="True" />
-                </Node>
-                <Node name="NPC" expanded="True" />
                 <Node name="UI Script" expanded="True" />
                 <Node name="Water" expanded="True" />
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -37,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="65dcdf84-4a30-45a5-9346-617c09271ee9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8d608369-8e58-4689-8eb3-d95b81c65901" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

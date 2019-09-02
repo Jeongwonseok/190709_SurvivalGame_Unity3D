@@ -27,7 +27,7 @@ public class PickaxeController : CloseWeaponController
     {
         while (isSwing)
         {
-            if (CheckObject())
+            if (CheckObject() && WeaponManager.currentWeapon.gameObject.transform.name == "Pickaxe")
             {
                 // 만약 현재 태그가 Rock 이면 깎기
                 if (hitInfo.transform.tag == "Rock")
@@ -37,11 +37,6 @@ public class PickaxeController : CloseWeaponController
                 {
                     SoundManager.instance.PlaySE("Animal_Hit");
                     hitInfo.transform.GetComponent<WeakAnimal>().Damage(1, transform.position);
-                }
-                // 만약 나뭇가지이면 데미지 주기
-                else if (hitInfo.transform.tag == "Twig")
-                {
-                    hitInfo.transform.GetComponent<Twig>().Damage(this.transform);
                 }
 
                 isSwing = false;

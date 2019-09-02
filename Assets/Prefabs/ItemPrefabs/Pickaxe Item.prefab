@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1974115705926174477}
   - component: {fileID: 5235944162935326115}
   - component: {fileID: 363307833365248960}
-  m_Layer: 0
+  - component: {fileID: -5667825143174950966}
+  m_Layer: 10
   m_Name: Pickaxe Item
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40177e22103be49b48251a4e88056494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: 002abd60c0762455db5122c4d12df554, type: 2}
 --- !u!65 &363307833365248960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103,8 +104,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974115705923918285}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.013898377, y: 0.0035326853, z: 0.021534784}
   m_Center: {x: -0.00010288555, y: 0.00004271476, z: 0.0029759011}
+--- !u!54 &-5667825143174950966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974115705923918285}
+  serializedVersion: 2
+  m_Mass: 0.01
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
