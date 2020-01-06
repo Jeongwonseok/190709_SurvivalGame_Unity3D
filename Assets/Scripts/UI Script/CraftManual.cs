@@ -132,9 +132,10 @@ public class CraftManual : MonoBehaviour
         {
             if (i == page * go_Slots.Length)
                 break;
+            
+            go_Slots[i - startSlotNumber].SetActive(true); // 해당 슬롯 활성화
 
-            go_Slots[i - startSlotNumber].SetActive(true);
-
+            // 해당 이미지, 이름, 설명 할당
             image_Slot[i - startSlotNumber].sprite = craft_SelectedTab[i].craftImage;
             text_SlotName[i - startSlotNumber].text = craft_SelectedTab[i].craftName;
             text_SlotDesc[i - startSlotNumber].text = craft_SelectedTab[i].craftDesc;
