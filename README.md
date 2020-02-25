@@ -26,12 +26,15 @@ Unity 엔진을 이용해서 1인칭 시점의 FPS 서바이벌 생존 게임을
 
 ## 2.2. 씬 구조도
 ![씬](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/FPS/씬.png)
-```
 * **Game Title** : 게임 실행, 게임 데이터 불러오기, 게임 종료의 기능을 담당하는 씬이다.
+```
 - Start : 게임을 새로 실행한다.
 - Load :  직전에 저장한 정보를 불러와 게임을 실행한다.
 - Exit : 게임을 종료한다.
+```
+
 * **Game Stage** : 사냥, 건축, 수영, 제작 등의 기능을 담당하는 본 게임 씬이다.
+```
 - Save : 게임 정보를 저장한다.
 - Load : 직전에 저장한 정보를 불러와 게임을 실행한다.
 - Exit : Game Title로 나간다.
