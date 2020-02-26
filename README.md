@@ -52,6 +52,7 @@ Unity 엔진을 이용해서 1인칭 시점의 FPS 서바이벌 생존 게임을
 <p align="center">
 <img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/FPS/nav2.png" width="600" height="150"><br>
 </p>
+
 ```
 설명 : Nav Mesh Agent 변수를 선언하고, 생성자를 정의한다.
 ```
