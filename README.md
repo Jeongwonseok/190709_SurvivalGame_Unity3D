@@ -44,7 +44,10 @@ Unity 엔진을 이용해서 1인칭 시점의 FPS 서바이벌 생존 게임을
 # 3. 주요 구현부
 ## 3.1. AI
 * **Nav Mesh Agent**<br>
+<p align="center">
 <img src="https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/FPS/nav1.png" width="300" height="400"><br>
+</p>
+
 ```
 설명 : Nav Mesh Agent 컴포넌트 추가하고, 해당 옵션 값을 수정한다.
 ```
