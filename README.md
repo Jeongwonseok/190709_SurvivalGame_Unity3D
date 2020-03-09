@@ -94,4 +94,5 @@ Unity 엔진을 이용해서 1인칭 시점의 FPS 서바이벌 생존 게임을
 ![ref2](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/FPS/ref2.png)
 
 ## 4.2. 참고 url
+* 게임 플레이 영상 : https://www.youtube.com/watch?v=F5-sKLbmBi0&t=1s
 * 케이디 [유니티 3D 강좌] FPS 서바이벌 디펜스 : <https://www.youtube.com/watch?v=uandR5M30ho/>

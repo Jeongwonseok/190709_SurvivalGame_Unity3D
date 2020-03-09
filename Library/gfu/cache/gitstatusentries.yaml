@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-22T20:41:29.695+09:00
-  initializedAtString: 2020-02-22T20:41:29.695+09:00
+  lastUpdatedAtString: 2020-03-09T23:50:37.205+09:00
+  initializedAtString: 2020-03-09T23:27:35.405+09:00
   entries:
-  - path: .vs/Survival/xs/sqlite3/storage.ide
-    fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/sqlite3/storage.ide
-    projectPath: .vs/Survival/xs/sqlite3/storage.ide
+  - path: .vs/Survival/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/Survival/xs/sqlite3/storage.ide-shm
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs/Survival/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/Survival/xs/sqlite3/storage.ide-wal
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: .vs/Survival/xs/UserPrefs.xml
     fullPath: /Users/jws/unity/Survival/.vs/Survival/xs/UserPrefs.xml
     projectPath: .vs/Survival/xs/UserPrefs.xml
@@ -40,30 +46,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/CurrentLayout-default.dwlt
-    fullPath: /Users/jws/unity/Survival/Library/CurrentLayout-default.dwlt
-    projectPath: Library/CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/CurrentMaximizeLayout.dwlt
-    fullPath: /Users/jws/unity/Survival/Library/CurrentMaximizeLayout.dwlt
-    projectPath: Library/CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/EditorInstance.json
     fullPath: /Users/jws/unity/Survival/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/expandedItems
-    fullPath: /Users/jws/unity/Survival/Library/expandedItems
-    projectPath: Library/expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/jws/unity/Survival/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
@@ -88,18 +76,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/jws/unity/Survival/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/35/35f602c0e6cf5409cb45048190da8740
-    fullPath: /Users/jws/unity/Survival/Library/metadata/35/35f602c0e6cf5409cb45048190da8740
-    projectPath: Library/metadata/35/35f602c0e6cf5409cb45048190da8740
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
     fullPath: /Users/jws/unity/Survival/Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
     projectPath: Library/metadata/73/7350b65a6431f604a8496c39db1ac9c5.info
@@ -112,12 +88,156 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/ShaderCache/0/012ba4e7023e73bc8c6a7bdef96b8ce4.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/0/012ba4e7023e73bc8c6a7bdef96b8ce4.bin
+    projectPath: Library/ShaderCache/0/012ba4e7023e73bc8c6a7bdef96b8ce4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/1/1c0ecafe228800532cdeeaa3839d37a6.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/1/1c0ecafe228800532cdeeaa3839d37a6.bin
+    projectPath: Library/ShaderCache/1/1c0ecafe228800532cdeeaa3839d37a6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/3/3382e75dc801379e9fd21cd6ee0b9c87.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/3/3382e75dc801379e9fd21cd6ee0b9c87.bin
+    projectPath: Library/ShaderCache/3/3382e75dc801379e9fd21cd6ee0b9c87.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/3/39126980bf07f0e01656c9de4a91715f.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/3/39126980bf07f0e01656c9de4a91715f.bin
+    projectPath: Library/ShaderCache/3/39126980bf07f0e01656c9de4a91715f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/4/467eb3631d140dfe54c78d8d417188c8.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/4/467eb3631d140dfe54c78d8d417188c8.bin
+    projectPath: Library/ShaderCache/4/467eb3631d140dfe54c78d8d417188c8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/5/5267653c6d97b9b89a4535aa0a11aef5.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/5/5267653c6d97b9b89a4535aa0a11aef5.bin
+    projectPath: Library/ShaderCache/5/5267653c6d97b9b89a4535aa0a11aef5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/5/53d28e6baa28e23d7efeb36b5551c3aa.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/5/53d28e6baa28e23d7efeb36b5551c3aa.bin
+    projectPath: Library/ShaderCache/5/53d28e6baa28e23d7efeb36b5551c3aa.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/5/5861e0a8878cbee9cf6929634ed2854e.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/5/5861e0a8878cbee9cf6929634ed2854e.bin
+    projectPath: Library/ShaderCache/5/5861e0a8878cbee9cf6929634ed2854e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/7/7a745dcccbffd0c82d2268c333faf84f.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/7/7a745dcccbffd0c82d2268c333faf84f.bin
+    projectPath: Library/ShaderCache/7/7a745dcccbffd0c82d2268c333faf84f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/8/8111f517ac2f1a20aaf4f2da28411b10.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/8/8111f517ac2f1a20aaf4f2da28411b10.bin
+    projectPath: Library/ShaderCache/8/8111f517ac2f1a20aaf4f2da28411b10.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/9/93c7065029d8bed7333c7bbd3dfaa980.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/9/93c7065029d8bed7333c7bbd3dfaa980.bin
+    projectPath: Library/ShaderCache/9/93c7065029d8bed7333c7bbd3dfaa980.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/a/ac10bfb33a3cb7f78edf39350e1ff0d3.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/a/ac10bfb33a3cb7f78edf39350e1ff0d3.bin
+    projectPath: Library/ShaderCache/a/ac10bfb33a3cb7f78edf39350e1ff0d3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/c/c75d7907e3bb386586931ecec9eab73a.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/c/c75d7907e3bb386586931ecec9eab73a.bin
+    projectPath: Library/ShaderCache/c/c75d7907e3bb386586931ecec9eab73a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/EditorEncounteredVariants
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/EditorEncounteredVariants
+    projectPath: Library/ShaderCache/EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ShaderCache/f/f390f53b89146544a1965a11c4fcfc69.bin
+    fullPath: /Users/jws/unity/Survival/Library/ShaderCache/f/f390f53b89146544a1965a11c4fcfc69.bin
+    projectPath: Library/ShaderCache/f/f390f53b89146544a1965a11c4fcfc69.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/jws/unity/Survival/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/Hierarchy/0f1a2f-mainStage.json
+    fullPath: /Users/jws/unity/Survival/Library/StateCache/Hierarchy/0f1a2f-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/0f1a2f-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/StateCache/SceneView/848abc-mainStage.json
     fullPath: /Users/jws/unity/Survival/Library/StateCache/SceneView/848abc-mainStage.json
     projectPath: Library/StateCache/SceneView/848abc-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/jws/unity/Survival/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp/ProcessJobs/e56e8792d72cea9dda88bfcd0397bd30.bakert
     fullPath: /Users/jws/unity/Survival/Temp/ProcessJobs/e56e8792d72cea9dda88bfcd0397bd30.bakert
     projectPath: Temp/ProcessJobs/e56e8792d72cea9dda88bfcd0397bd30.bakert

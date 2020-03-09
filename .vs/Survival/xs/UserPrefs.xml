@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{71DC3803-2807-D23D-8BFD-5A0FEC7F391E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DayAndNight.cs">
     <Files>
       <File FileName="Assets/Scripts/HandController.cs" Line="94" Column="41" />
       <File FileName="Assets/Scripts/FoodOnFire.cs" />
-      <File FileName="Assets/Scripts/AxeController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Water/SaveNLoad.cs" Line="89" Column="2" />
-      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" Line="59" Column="1" />
-      <File FileName="Assets/Scripts/NPC/Pig.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NPC/Animal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HUD.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Building/DeadTrap.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Building/SimpleTrap.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Building/TrapDamage.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NPC/PigWild.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NPC/StrongAnimal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GunController.cs" Line="175" Column="23" />
+      <File FileName="Assets/Scripts/AxeController.cs" />
+      <File FileName="Assets/Scripts/Water/SaveNLoad.cs" />
+      <File FileName="Assets/Scripts/NPC/FieldOfViewAngle.cs" />
+      <File FileName="Assets/Scripts/NPC/Pig.cs" />
+      <File FileName="Assets/Scripts/ItemEffectDatabase.cs" />
+      <File FileName="Assets/Scripts/NPC/Animal.cs" />
+      <File FileName="Assets/Scripts/HUD.cs" />
+      <File FileName="Assets/Scripts/Building/DeadTrap.cs" />
+      <File FileName="Assets/Scripts/Building/SimpleTrap.cs" />
+      <File FileName="Assets/Scripts/Building/TrapDamage.cs" />
+      <File FileName="Assets/Scripts/NPC/PigWild.cs" />
+      <File FileName="Assets/Scripts/NPC/StrongAnimal.cs" />
+      <File FileName="Assets/Scripts/NPC/WeakAnimal.cs" />
+      <File FileName="Assets/Scripts/GunController.cs" />
       <File FileName="Assets/Scripts/SoundManager.cs" Line="11" Column="2" />
-      <File FileName="Assets/Scripts/Water/Water.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Water/Water.cs" />
+      <File FileName="Assets/Scripts/DayAndNight.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,7 +31,7 @@
                 <Node name="NPC" expanded="True" />
                 <Node name="UI Script" expanded="True" />
                 <Node name="Water" expanded="True" />
-                <Node name="SoundManager.cs" selected="True" />
+                <Node name="DayAndNight.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -40,7 +41,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f48f62b-7398-4161-b191-3bddf96fb9ee" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b1b2085c-d468-44e3-b367-b3ce7c9579fd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
